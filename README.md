@@ -31,7 +31,8 @@ OTTO 1500:
 - SICK Microscan3 (360 FOV)
 
 OTTO 600:
-- x <!-- TODO: add missing staff -->
+- Forward facing 3D Perception Cameras
+- 6-axis IMU
 
 # OTTO 1500 v2 - two models
 
@@ -60,9 +61,6 @@ Robots are delivered as prefabs, containing models and physics, along with the f
 - ROS2 Skid Steering Vehicle Model
 - ROS2 Lidar Sensor
 - ROS2 Pid Motor Controller
-
-There is a possibility to add:
-<!-- TODO: add info about adding cameras etc. -->
 
 ---
 
