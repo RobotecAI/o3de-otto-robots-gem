@@ -1,13 +1,13 @@
 {
     "gem_name": "OTTORobots",
     "version": "1.0.0",
-    "display_name": "OTTORobots",
-    "license": "Apache-2.0",
-    "license_url": "https://opensource.org/licenses/Apache-2.0",
+    "display_name": "URRobots",
+    "license": "CC BY-NC-SA 4.0 DEED",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
     "origin": "RobotecAI",
-    "origin_url": "https://github.com/o3de/o3de-extras/development/Gems/OTTORobots",
+    "origin_url": "https://robotec.ai",
     "type": "Asset",
-    "summary": "OTTO1500 and OTTO600 robots with Lidar sensors and stands",
+    "summary": "OTTO1500 and OTTO600 robots by Clearpath with Lidar sensors and stands",
     "canonical_tags": [
         "Gem"
     ],
@@ -22,6 +22,6 @@
         "ROS2",
         "PhysX"
     ],
-    "repo_uri": "https://github.com/o3de/o3de-extras",
+    "repo_uri": "https://github.com/RobotecAI/o3de-otto-robots-gem",
     "restricted": "OTTORobots"
 }

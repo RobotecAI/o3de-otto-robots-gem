@@ -34,22 +34,22 @@ OTTO 600:
 - Forward facing 3D Perception Cameras
 - 6-axis IMU
 
-# OTTO 1500 v2 - two models
+## OTTO 1500 v2 - two models
 
-## OTTO1500_Basic_platform.prefab - containing the small, static platform
+### OTTO1500_Basic_platform.prefab - containing the small, static platform
 ![](docs/images/OTTO1500_Basic_platform_front.png) <!-- TODO: change image with new fixed model -->
 ![](docs/images/OTTO1500_Basic_platform_top.png)
 ---
 
-## OTTO1500_Lifting_platform.prefab - containing the high, lifting platform
+### OTTO1500_Lifting_platform.prefab - containing the high, lifting platform
 ![](docs/images/OTTO1500_Lifting_platform_front.png) <!-- TODO: change image with new fixed model -->
 ![](docs/images/OTTO1500_Lifting_platform_lift.png) <!-- TODO: change image with new fixed model -->
 ![](docs/images/OTTO1500_Lifting_platform_top.png)
 ---
 Movement of the platform can be manually steered using Physix Debug gem or controlled from code using the Pid Motor Controller Component.
 
-# OTTO 600
-## OTTO600.prefab
+## OTTO 600
+### OTTO600.prefab
 ![](docs/images/OTTO600_front.png)
 ![](docs/images/OTTO600_back.png)
 ![](docs/images/OTTO600_top.png)
