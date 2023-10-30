@@ -22,8 +22,7 @@ This gem contains the following assets:
 - High and low stands for OTTO 1500 v2
 - Stand for OTTO 600
 
-
-Models are simplified and does not contain e.g. 
+Please note that links and how parts of the robots combine might not be faithful to actual design, as it is not public. Models are simplified and do not contain e.g. 
 
 OTTO 1500:
 - Intel RealSense Cameras
@@ -61,6 +60,10 @@ Robots are delivered as prefabs, containing models and physics, along with the f
 - ROS2 Skid Steering Vehicle Model
 - ROS2 Lidar Sensor
 - ROS2 Pid Motor Controller
+
+## Acknowledgements
+
+Models were created based on STL files kindly shared by OTTO Motors.
 
 ---
 
