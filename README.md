@@ -10,7 +10,7 @@
   standard for robotics.
 * [ROS2 Gem](https://github.com/o3de/o3de-extras/tree/development/Gems/ROS2) - an open source module for O3DE which
   enables simulation for robotics using modern ROS.
-* [OTTO Motors](https://ottomotors.com/) - OTTO Motors is Clearpath’s industrial division, providing autonomous mobile robots (AMRs) for material handling inside manufacturing facilities and warehouses.
+* [OTTO Motors](https://ottomotors.com/) - OTTO Motors is Rockwell Automation's AMR division, providing autonomous mobile robots (AMRs) for material handling inside manufacturing facilities and warehouses.
 
 ## Requirements
 - Any O3DE project with the [O3DE ROS2 Gem](https://github.com/o3de/o3de-extras/tree/development/Gems/ROS2) enabled.
