@@ -110,7 +110,7 @@
                         },
                         "lidarCore": {
                             "lidarConfiguration": {
-                                "lidarImplementation": "Scene Queries",
+                                "lidarImplementation": "RobotecGPULidar",
                                 "LidarParameters": {
                                     "Points per layer": 128,
                                     "Max horizontal angle": 90.0,
@@ -374,7 +374,7 @@
                         },
                         "lidarCore": {
                             "lidarConfiguration": {
-                                "lidarImplementation": "Scene Queries",
+                                "lidarImplementation": "RobotecGPULidar",
                                 "LidarParameters": {
                                     "Points per layer": 128,
                                     "Max horizontal angle": 90.0,
@@ -2438,6 +2438,25 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 13018748033341316062
                 },
+                "ObjectDetectionComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 15286075740426546693,
+                    "m_template": {
+                        "$type": "ObjectDetectionComponent",
+                        "ObjectDetectionConfig": {
+                            "CollisionTrigger": "Entity_[24172719660011]",
+                            "DetectableObjects": [
+                                "AMR"
+                            ],
+                            "TopicConfiguration": {
+                                "Topic": "/object_detector",
+                                "QoS": {
+                                    "Reliability": 1
+                                }
+                            }
+                        }
+                    }
+                },
                 "ROS2FrameComponent": {
                     "$type": "GenericComponentWrapper",
                     "Id": 10196926479865051977,
@@ -2558,10 +2577,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{CA94DC23-5EC6-565E-949C-09701AE9B96A}",
-                                    "subId": 268640466
+                                    "guid": "{D0C0E57A-0068-5269-B3A0-A827DD4090D9}",
+                                    "subId": 274705241
                                 },
-                                "assetHint": "otto600/meshes/otto600_wheel.stl.azmodel"
+                                "assetHint": "prefabs/otto600/default_otto600_1656cfa9_69f2_5d41_85db_1a4fcba4b0f5_.fbx.azmodel"
                             }
                         }
                     }
@@ -2631,7 +2650,7 @@
                                             "guid": "{2F57E22F-821C-54CF-9E39-A23019426F54}",
                                             "subId": 1
                                         },
-                                        "assetHint": "otto600/physics/robot_tire.physicsmaterial"
+                                        "assetHint": "prefabs/otto600/materials/robot_tire.physicsmaterial"
                                     }
                                 }
                             ]
@@ -2781,7 +2800,7 @@
                                             "guid": "{0AA5C56C-C293-5D48-BECC-AD85DA171765}",
                                             "subId": 1
                                         },
-                                        "assetHint": "otto600/physics/no_friction.physicsmaterial"
+                                        "assetHint": "prefabs/otto600/materials/no_friction.physicsmaterial"
                                     }
                                 }
                             ]
@@ -3144,7 +3163,48 @@
                             "assetId": {
                                 "guid": "{D9E6F520-94C8-5D5E-AFD6-A0D70086D459}"
                             },
-                            "assetHint": "otto600/scripts/otto600robot_inputs.inputbindings"
+                            "assetHint": "prefabs/otto600/scripts/otto600robot_inputs.inputbindings"
+                        }
+                    }
+                },
+                "LightController": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 871340531893127552,
+                    "m_template": {
+                        "$type": "LightController",
+                        "configuration": {
+                            "LightEntityIdList": [
+                                "Entity_[207497187687672]",
+                                "Entity_[359257244171]",
+                                "Entity_[209129275260152]",
+                                "Entity_[209124980292856]",
+                                "Entity_[207544432327928]",
+                                "Entity_[208278871735544]",
+                                "Entity_[210817197407480]",
+                                "Entity_[210812902440184]",
+                                "Entity_[210821492374776]",
+                                "Entity_[210825787342072]",
+                                "Entity_[210830082309368]",
+                                "Entity_[210834377276664]",
+                                "Entity_[210684053421304]",
+                                "Entity_[210662578584824]",
+                                "Entity_[210671168519416]",
+                                "Entity_[210675463486712]",
+                                "Entity_[210658283617528]",
+                                "Entity_[210666873552120]",
+                                "Entity_[210722708126968]",
+                                "Entity_[210748477930744]",
+                                "Entity_[210744182963448]",
+                                "Entity_[210731298061560]",
+                                "Entity_[210727003094264]",
+                                "Entity_[210735593028856]"
+                            ],
+                            "TopicConfiguration": {
+                                "Topic": "color",
+                                "QoS": {
+                                    "Reliability": 1
+                                }
+                            }
                         }
                     }
                 },
@@ -3251,10 +3311,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{CA94DC23-5EC6-565E-949C-09701AE9B96A}",
-                                    "subId": 268640466
+                                    "guid": "{D0C0E57A-0068-5269-B3A0-A827DD4090D9}",
+                                    "subId": 274705241
                                 },
-                                "assetHint": "otto600/meshes/otto600_wheel.stl.azmodel"
+                                "assetHint": "prefabs/otto600/default_otto600_1656cfa9_69f2_5d41_85db_1a4fcba4b0f5_.fbx.azmodel"
                             }
                         }
                     }
@@ -3278,28 +3338,6 @@
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
                     "Id": 9563663526936912726
-                },
-                "EditorMaterialComponent": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 16809044803472536913,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 2084814471
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{F3650216-F7A1-5F05-B041-50730260F39C}"
-                                            }
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -3346,7 +3384,7 @@
                                             "guid": "{0AA5C56C-C293-5D48-BECC-AD85DA171765}",
                                             "subId": 1
                                         },
-                                        "assetHint": "otto600/physics/no_friction.physicsmaterial"
+                                        "assetHint": "prefabs/otto600/materials/no_friction.physicsmaterial"
                                     }
                                 }
                             ]
@@ -3889,10 +3927,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{CA94DC23-5EC6-565E-949C-09701AE9B96A}",
-                                    "subId": 268640466
+                                    "guid": "{D0C0E57A-0068-5269-B3A0-A827DD4090D9}",
+                                    "subId": 274705241
                                 },
-                                "assetHint": "otto600/meshes/otto600_wheel.stl.azmodel"
+                                "assetHint": "prefabs/otto600/default_otto600_1656cfa9_69f2_5d41_85db_1a4fcba4b0f5_.fbx.azmodel"
                             }
                         }
                     }
@@ -3950,10 +3988,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{CA94DC23-5EC6-565E-949C-09701AE9B96A}",
-                                    "subId": 268640466
+                                    "guid": "{D0C0E57A-0068-5269-B3A0-A827DD4090D9}",
+                                    "subId": 274705241
                                 },
-                                "assetHint": "otto600/meshes/otto600_wheel.stl.azmodel"
+                                "assetHint": "prefabs/otto600/default_otto600_1656cfa9_69f2_5d41_85db_1a4fcba4b0f5_.fbx.azmodel"
                             }
                         }
                     }
@@ -4014,7 +4052,7 @@
                                     "guid": "{68D29BB5-976C-5549-87DB-B4C30628E7E3}",
                                     "subId": 282067103
                                 },
-                                "assetHint": "otto600/platform/default_otto600platform_3725e17a_b586_510d_8a3c_9a3c61d61748_.fbx.azmodel"
+                                "assetHint": "prefabs/otto600-platform/default_otto600platform_c41b2a86_5279_56ab_8747_bd72702efeaa_.fbx.azmodel"
                             }
                         }
                     }
@@ -4054,7 +4092,7 @@
                                             "assetId": {
                                                 "guid": "{E33FDE83-F05B-5EFF-A68E-6D92FCBAF5C5}"
                                             },
-                                            "assetHint": "otto600/platform/otto600platform_otto600platform.azmaterial"
+                                            "assetHint": "prefabs/otto600-platform/otto600platform_otto600platform.azmaterial"
                                         }
                                     }
                                 }
@@ -4116,7 +4154,7 @@
                                             "guid": "{2F57E22F-821C-54CF-9E39-A23019426F54}",
                                             "subId": 1
                                         },
-                                        "assetHint": "otto600/physics/robot_tire.physicsmaterial"
+                                        "assetHint": "prefabs/otto600/materials/robot_tire.physicsmaterial"
                                     }
                                 }
                             ]
@@ -4254,10 +4292,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{CA94DC23-5EC6-565E-949C-09701AE9B96A}",
-                                    "subId": 268640466
+                                    "guid": "{D0C0E57A-0068-5269-B3A0-A827DD4090D9}",
+                                    "subId": 274705241
                                 },
-                                "assetHint": "otto600/meshes/otto600_wheel.stl.azmodel"
+                                "assetHint": "prefabs/otto600/default_otto600_1656cfa9_69f2_5d41_85db_1a4fcba4b0f5_.fbx.azmodel"
                             }
                         }
                     }
@@ -4282,29 +4320,6 @@
                     "$type": "EditorLockComponent",
                     "Id": 8339769433857007864
                 },
-                "EditorMaterialComponent": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 10653145262824210900,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 2084814471
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{F3650216-F7A1-5F05-B041-50730260F39C}"
-                                            },
-                                            "assetHint": "otto600/materials/otto600_otto600.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 16838999548608809924
@@ -4322,11 +4337,6 @@
                     "Id": 17205227778608021128,
                     "Parent Entity": "Entity_[449451557387]",
                     "Transform Data": {
-                        "Translate": [
-                            0.0,
-                            0.0,
-                            -0.04573071002960205
-                        ],
                         "UniformScale": 0.009999999776482582
                     }
                 }
@@ -4355,7 +4365,7 @@
                                             "guid": "{0AA5C56C-C293-5D48-BECC-AD85DA171765}",
                                             "subId": 1
                                         },
-                                        "assetHint": "otto600/physics/no_friction.physicsmaterial"
+                                        "assetHint": "prefabs/otto600/materials/no_friction.physicsmaterial"
                                     }
                                 }
                             ]
@@ -4496,7 +4506,7 @@
                                     "guid": "{68D29BB5-976C-5549-87DB-B4C30628E7E3}",
                                     "subId": 273667124
                                 },
-                                "assetHint": "otto600/platform/default_otto600platform_b34d82bd_58c9_5ced_bdf3_b97fb4113968_.fbx.azmodel"
+                                "assetHint": "prefabs/otto600-platform/default_otto600platform_10e8adf1_1410_52ee_ae8b_af86963a942b_.fbx.azmodel"
                             }
                         }
                     }
@@ -4536,7 +4546,7 @@
                                             "assetId": {
                                                 "guid": "{E33FDE83-F05B-5EFF-A68E-6D92FCBAF5C5}"
                                             },
-                                            "assetHint": "otto600/platform/otto600platform_otto600platform.azmaterial"
+                                            "assetHint": "prefabs/otto600-platform/otto600platform_otto600platform.azmaterial"
                                         }
                                     }
                                 }
@@ -4656,7 +4666,7 @@
                                             "guid": "{0AA5C56C-C293-5D48-BECC-AD85DA171765}",
                                             "subId": 1
                                         },
-                                        "assetHint": "otto600/physics/no_friction.physicsmaterial"
+                                        "assetHint": "prefabs/otto600/materials/no_friction.physicsmaterial"
                                     }
                                 }
                             ]
@@ -4794,10 +4804,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{CA94DC23-5EC6-565E-949C-09701AE9B96A}",
-                                    "subId": 268640466
+                                    "guid": "{D0C0E57A-0068-5269-B3A0-A827DD4090D9}",
+                                    "subId": 274705241
                                 },
-                                "assetHint": "otto600/meshes/otto600_wheel.stl.azmodel"
+                                "assetHint": "prefabs/otto600/default_otto600_1656cfa9_69f2_5d41_85db_1a4fcba4b0f5_.fbx.azmodel"
                             }
                         }
                     }
@@ -4855,10 +4865,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{3ACCAA36-3B4D-5048-AF4F-E47C74B82533}",
-                                    "subId": 280161714
+                                    "guid": "{D0C0E57A-0068-5269-B3A0-A827DD4090D9}",
+                                    "subId": 268661737
                                 },
-                                "assetHint": "otto600/default_otto600_d9af6914_f5d3_55e6_af30_182fcffabed8_.fbx.azmodel"
+                                "assetHint": "prefabs/otto600/default_otto600_a4533a21_d44d_5c0e_a25b_2e1648ad4ade_.fbx.azmodel"
                             }
                         }
                     }
@@ -4896,9 +4906,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{8A944CFB-2D21-5F61-8975-34D3F4EA900C}"
+                                                "guid": "{73AD6398-0854-5467-839E-7E0AF9A25146}"
                                             },
-                                            "assetHint": "otto600/materials/otto600_emission03.azmaterial"
+                                            "assetHint": "prefabs/otto600/otto600_emission03.azmaterial"
                                         }
                                     }
                                 },
@@ -4909,9 +4919,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{C64E55A1-FE09-5184-9865-697F3846B45F}"
+                                                "guid": "{BC11CF39-9966-5086-BAAA-67410FCC66B8}"
                                             },
-                                            "assetHint": "otto600/materials/otto600_emission02.azmaterial"
+                                            "assetHint": "prefabs/otto600/otto600_emission02.azmaterial"
                                         }
                                     }
                                 },
@@ -4922,9 +4932,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{D082E7C6-FD06-5C49-BC06-A253B98A1F0A}"
+                                                "guid": "{8505748C-1422-57A0-BA40-5E817F0EBBCA}"
                                             },
-                                            "assetHint": "otto600/materials/otto600_emission01.azmaterial"
+                                            "assetHint": "prefabs/otto600/otto600_emission01.azmaterial"
                                         }
                                     }
                                 },
@@ -4935,9 +4945,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{F3650216-F7A1-5F05-B041-50730260F39C}"
+                                                "guid": "{A39B27FE-9F92-52CA-A9A5-E5A707BDF6AA}"
                                             },
-                                            "assetHint": "otto600/materials/otto600_otto600.azmaterial"
+                                            "assetHint": "prefabs/otto600/otto600_otto600.azmaterial"
                                         }
                                     }
                                 }

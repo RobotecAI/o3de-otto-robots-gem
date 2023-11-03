@@ -64,7 +64,7 @@
                                     "guid": "{4294F702-5FCE-5C6A-9FE5-8125292ECB62}",
                                     "subId": 277864421
                                 },
-                                "assetHint": "otto1500/otto1500liftingmodelmeshes/otto1500_wheel_center.stl.azmodel"
+                                "assetHint": "assets/urdfimporter/2361167171_otto1500.urdf/otto1500_wheel_center.stl.azmodel"
                             }
                         }
                     }
@@ -157,7 +157,7 @@
                                     "guid": "{7D3B18C1-3C0D-5A3B-AD2B-1E18588A572A}",
                                     "subId": 277442517
                                 },
-                                "assetHint": "otto1500/platform/otto1500_platfrom_b/default_platformb_303286c5_82d3_5dde_b036_44203e7b5111_.fbx.azmodel"
+                                "assetHint": "prefabs/otto1500_platform/otto1500_platfrom_b/default_platformb_bf9727f7_316a_5ef8_aac4_e2811b23509d_.fbx.azmodel"
                             }
                         }
                     }
@@ -248,7 +248,7 @@
                                     "guid": "{E5F41FF9-3859-57DA-8CD2-5062F5FC027D}",
                                     "subId": 280463597
                                 },
-                                "assetHint": "otto1500/otto1500.fbx.azmodel"
+                                "assetHint": "assets/importer/otto1500.fbx.azmodel"
                             }
                         }
                     }
@@ -294,7 +294,7 @@
                                             "assetId": {
                                                 "guid": "{F08349A0-1943-550C-B385-715DB7D41B78}"
                                             },
-                                            "assetHint": "otto1500/materials/otto1500_otto_1500.azmaterial"
+                                            "assetHint": "assets/importer/otto1500_otto_1500.azmaterial"
                                         }
                                     }
                                 },
@@ -307,7 +307,7 @@
                                             "assetId": {
                                                 "guid": "{CAEBBA05-9188-537A-9A44-2D633B3FF727}"
                                             },
-                                            "assetHint": "otto1500/materials/otto1500_otto_1500_lights_front.azmaterial"
+                                            "assetHint": "assets/importer/otto1500_otto_1500_lights_front.azmaterial"
                                         }
                                     }
                                 },
@@ -320,7 +320,7 @@
                                             "assetId": {
                                                 "guid": "{D96DB3D5-FAF6-5486-8A48-2F7512CDB0D6}"
                                             },
-                                            "assetHint": "otto1500/materials/otto1500_otto_1500_lights_back.azmaterial"
+                                            "assetHint": "assets/importer/otto1500_otto_1500_lights_back.azmaterial"
                                         }
                                     }
                                 },
@@ -333,7 +333,7 @@
                                             "assetId": {
                                                 "guid": "{95C0B96D-AED0-5465-9775-053D4FE2A634}"
                                             },
-                                            "assetHint": "otto1500/materials/otto1500_otto_1500_lights_side.azmaterial"
+                                            "assetHint": "assets/importer/otto1500_otto_1500_lights_side.azmaterial"
                                         }
                                     }
                                 }
@@ -480,13 +480,13 @@
                     "configuration": {
                         "sourceHandle": {
                             "id": "{C4A10A1E-40FB-512E-994C-126ECA12FE9B}",
-                            "path": "OTTO1500/Platform/LiftAnimation.scriptcanvas"
+                            "path": "Prefabs/OTTO1500_Platform/LiftAnimation.scriptcanvas"
                         },
                         "sourceName": "LiftAnimation.scriptcanvas",
                         "propertyOverrides": {
                             "source": {
                                 "id": "{C4A10A1E-40FB-512E-994C-126ECA12FE9B}",
-                                "path": "OTTO1500/Platform/LiftAnimation.scriptcanvas"
+                                "path": "Prefabs/OTTO1500_Platform/LiftAnimation.scriptcanvas"
                             },
                             "variables": [
                                 {
@@ -608,7 +608,7 @@
                                             "guid": "{73E4C883-CDAE-5722-A955-6DCF5E43D5D4}",
                                             "subId": 1
                                         },
-                                        "assetHint": "otto1500/physics/no_friction.physicsmaterial"
+                                        "assetHint": "prefabs/otto1500/materials/no_friction.physicsmaterial"
                                     }
                                 }
                             ]
@@ -905,7 +905,7 @@
                             "assetId": {
                                 "guid": "{7D2DCE6D-3A85-5781-9EBB-3CA0D979919D}"
                             },
-                            "assetHint": "otto1500/scripts/otto1500robot_inputs.inputbindings"
+                            "assetHint": "prefabs/otto1500/scripts/otto1500robot_inputs.inputbindings"
                         }
                     }
                 },
@@ -1039,7 +1039,7 @@
                                     "guid": "{1F07ABE6-C6BE-5AA9-BC0D-2A28FDA28639}",
                                     "subId": 268916636
                                 },
-                                "assetHint": "otto1500/otto1500liftingmodelmeshes/otto1500_wheel_front_rear.stl.azmodel"
+                                "assetHint": "assets/urdfimporter/2361167171_otto1500.urdf/otto1500_wheel_front_rear.stl.azmodel"
                             }
                         }
                     }
@@ -1132,7 +1132,7 @@
                                     "guid": "{7D3B18C1-3C0D-5A3B-AD2B-1E18588A572A}",
                                     "subId": 281546809
                                 },
-                                "assetHint": "otto1500/platform/otto1500_platfrom_b/default_platformb_56769853_be9c_5c14_93dd_2db667676ec5_.fbx.azmodel"
+                                "assetHint": "prefabs/otto1500_platform/otto1500_platfrom_b/default_platformb_9459dae0_4534_511d_82fd_b3d3d75d79c3_.fbx.azmodel"
                             }
                         }
                     }
@@ -1228,7 +1228,7 @@
                                             "guid": "{73E4C883-CDAE-5722-A955-6DCF5E43D5D4}",
                                             "subId": 1
                                         },
-                                        "assetHint": "otto1500/physics/no_friction.physicsmaterial"
+                                        "assetHint": "prefabs/otto1500/materials/no_friction.physicsmaterial"
                                     }
                                 }
                             ]
@@ -1363,7 +1363,7 @@
                                             "guid": "{73E4C883-CDAE-5722-A955-6DCF5E43D5D4}",
                                             "subId": 1
                                         },
-                                        "assetHint": "otto1500/physics/no_friction.physicsmaterial"
+                                        "assetHint": "prefabs/otto1500/materials/no_friction.physicsmaterial"
                                     }
                                 }
                             ]
@@ -1498,7 +1498,7 @@
                                             "guid": "{73E4C883-CDAE-5722-A955-6DCF5E43D5D4}",
                                             "subId": 1
                                         },
-                                        "assetHint": "otto1500/physics/no_friction.physicsmaterial"
+                                        "assetHint": "prefabs/otto1500/materials/no_friction.physicsmaterial"
                                     }
                                 }
                             ]
@@ -1633,7 +1633,7 @@
                                             "guid": "{C2FAAC05-C626-5249-9E32-B55FC5B62C8B}",
                                             "subId": 1
                                         },
-                                        "assetHint": "otto1500/physics/robot_tire.physicsmaterial"
+                                        "assetHint": "prefabs/otto1500/materials/robot_tire.physicsmaterial"
                                     }
                                 }
                             ]
@@ -1763,7 +1763,7 @@
                                     "guid": "{1F07ABE6-C6BE-5AA9-BC0D-2A28FDA28639}",
                                     "subId": 268916636
                                 },
-                                "assetHint": "otto1500/otto1500liftingmodelmeshes/otto1500_wheel_front_rear.stl.azmodel"
+                                "assetHint": "assets/urdfimporter/2361167171_otto1500.urdf/otto1500_wheel_front_rear.stl.azmodel"
                             }
                         }
                     }
@@ -1856,7 +1856,7 @@
                                     "guid": "{4294F702-5FCE-5C6A-9FE5-8125292ECB62}",
                                     "subId": 277864421
                                 },
-                                "assetHint": "otto1500/otto1500liftingmodelmeshes/otto1500_wheel_center.stl.azmodel"
+                                "assetHint": "assets/urdfimporter/2361167171_otto1500.urdf/otto1500_wheel_center.stl.azmodel"
                             }
                         }
                     }
@@ -2043,7 +2043,7 @@
                                             "guid": "{C2FAAC05-C626-5249-9E32-B55FC5B62C8B}",
                                             "subId": 1
                                         },
-                                        "assetHint": "otto1500/physics/robot_tire.physicsmaterial"
+                                        "assetHint": "prefabs/otto1500/materials/robot_tire.physicsmaterial"
                                     }
                                 }
                             ]
@@ -2173,7 +2173,7 @@
                                     "guid": "{7D3B18C1-3C0D-5A3B-AD2B-1E18588A572A}",
                                     "subId": 279277493
                                 },
-                                "assetHint": "otto1500/platform/otto1500_platfrom_b/default_platformb_3b40541c_8ef5_5217_b4d3_b69ff211388c_.fbx.azmodel"
+                                "assetHint": "prefabs/otto1500_platform/otto1500_platfrom_b/default_platformb_a41277ae_61fd_5b47_9b15_8b4f264e04f2_.fbx.azmodel"
                             }
                         }
                     }
@@ -2395,7 +2395,7 @@
                                     "guid": "{1F07ABE6-C6BE-5AA9-BC0D-2A28FDA28639}",
                                     "subId": 268916636
                                 },
-                                "assetHint": "otto1500/otto1500liftingmodelmeshes/otto1500_wheel_front_rear.stl.azmodel"
+                                "assetHint": "assets/urdfimporter/2361167171_otto1500.urdf/otto1500_wheel_front_rear.stl.azmodel"
                             }
                         }
                     }
@@ -2488,7 +2488,7 @@
                                     "guid": "{1F07ABE6-C6BE-5AA9-BC0D-2A28FDA28639}",
                                     "subId": 268916636
                                 },
-                                "assetHint": "otto1500/otto1500liftingmodelmeshes/otto1500_wheel_front_rear.stl.azmodel"
+                                "assetHint": "assets/urdfimporter/2361167171_otto1500.urdf/otto1500_wheel_front_rear.stl.azmodel"
                             }
                         }
                     }
