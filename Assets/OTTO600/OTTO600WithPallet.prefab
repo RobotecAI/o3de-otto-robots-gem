@@ -1,0 +1,285 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "OTTO600WithPallet",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 12727569115176505938
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 14109177156296796594
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14322905060755875305,
+                "Child Entity Order": [
+                    "Entity_[156945617978714]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5077636504335810227
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 3050179699344646339
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 4587785729521849325
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 5943798472021775489
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 3178893501281144677
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 12625183757952683859
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 16022557838582034458,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[156945617978714]": {
+            "Id": "Entity_[156945617978714]",
+            "Name": "Otto600WithPallet",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15811960078920301199
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1379409371780734256
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12605694293692559810,
+                    "Child Entity Order": [
+                        "Instance_[351923866075673]/ContainerEntity",
+                        "Instance_[521974506226201]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4135877308919212879,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6006678947118575772
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6435634080078711512
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13335659403231022288
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15430549919622229460
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8046963728856240952
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6006678947118575772,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[351923866075673]": {
+            "Source": "Prefabs/OTTO600/OTTO600.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Name",
+                    "value": "otto_1"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[156945617978714]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 0.10000000149011612
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": 89.99994659423828
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[363552211467]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/urdfimporter/3514951866_otto600.urdf/otto600_wheel.stl.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[385027047947]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/urdfimporter/3514951866_otto600.urdf/otto600_wheel.stl.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[406501884427]/Components/EditorPrismaticJointComponent/Linear Limit/Upper Limit",
+                    "value": 0.10000000149011612
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[406501884427]/Components/LifterControllerComponent",
+                    "value": {
+                        "$type": "GenericComponentWrapper",
+                        "Id": 14464864923481250071,
+                        "m_template": {
+                            "$type": "LifterControllerComponent",
+                            "Id": 0,
+                            "TopicConfiguration": {
+                                "Type": "std_msgs::msg::Empty",
+                                "Topic": "lifter",
+                                "QoS": {
+                                    "Reliability": 2,
+                                    "Durability": 2,
+                                    "Depth": 5
+                                }
+                            },
+                            "MotorSetpoint": 0.44999998807907104
+                        }
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[415091819019]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "prefabs/otto600/otto600.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[427976720907]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/urdfimporter/3514951866_otto600.urdf/otto600_wheel.stl.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[436566655499]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/urdfimporter/3514951866_otto600.urdf/otto600_wheel.stl.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[458041491979]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/urdfimporter/3514951866_otto600.urdf/otto600_wheel.stl.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[483811295755]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/urdfimporter/3514951866_otto600.urdf/otto600_wheel.stl.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[376437113355]/Components/EditorTagComponent/Id",
+                    "value": 7864192969969983559
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[376437113355]/Components/ROS2FrameComponent/m_template/Namespace Configuration/Namespace Strategy",
+                    "value": 3
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[376437113355]/Components/ROS2FrameComponent/m_template/Namespace Configuration/Namespace",
+                    "value": "otto_1"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[376437113355]/Components/ROS2OdometrySensorComponent/m_template/SensorConfiguration/Publishers/nav_msgs::msg::Odometry/QoS/Reliability",
+                    "value": 1
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[376437113355]/Components/SkidSteeringModelComponent/m_template/ManualControl",
+                    "value": false
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[187685058540532]/Components/ROS2Lidar2DSensorComponent/m_template/lidarCore/lidarConfiguration/lidarImplementation",
+                    "value": "Scene Queries"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[207905764570100]/Components/ROS2Lidar2DSensorComponent/m_template/lidarCore/lidarConfiguration/lidarImplementation",
+                    "value": "Scene Queries"
+                }
+            ]
+        },
+        "Instance_[521974506226201]": {
+            "Source": "Assets/Factory/EuroPallet.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[7675439734614417]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/factory/conveyorline/default_europallet_891b819b_706f_596f_8fd1_04c894deb906_.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[156945617978714]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 0.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": 89.99999237060547
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[7675435439647121]/Components/EditorMeshColliderComponent/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/factory/conveyorline/europallet.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[7675435439647121]/Components/EditorMeshColliderComponent/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/factory/conveyorline/europallet.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": -0.00029151514172554016
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.05575583875179291
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 9.80550479888916
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 14.414012908935549
+                }
+            ]
+        }
+    }
+}

@@ -8,20 +8,20 @@
             0.800000011920929,
             1.0
         ],
-        "baseColor.textureMap": "Textures/Otto1500_Platform_A_BaseColor.png",
+        "baseColor.textureMap": "Textures/Otto600Platform-BaseColor.png",
         "emissive.color": [
             0.0,
             0.0,
             0.0,
             1.0
         ],
-        "metallic.textureMap": "Textures/Otto1500_Platform_A_Metallic.png",
-        "normal.textureMap": "Textures/Otto1500_Platform_A_Normal.png",
-        "occlusion.diffuseTextureMap": "Textures/Otto1500_Platform_A_AO.png",
+        "metallic.textureMap": "Textures/Otto600Platform-Metallic.png",
+        "normal.factor": 1.2000000476837158,
+        "normal.textureMap": "Textures/Otto600Platform-Normal.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.5,
-        "roughness.lowerBound": 0.029999999329447746,
-        "roughness.textureMap": "Textures/Otto1500_Platform_A_Roughness.png",
-        "roughness.upperBound": 0.699999988079071
+        "roughness.lowerBound": 0.27000001072883606,
+        "roughness.textureMap": "Textures/Otto600Platform-Roughness.png",
+        "specularF0.textureMap": "Textures/Otto600Platform-Specular.png"
     }
 }
