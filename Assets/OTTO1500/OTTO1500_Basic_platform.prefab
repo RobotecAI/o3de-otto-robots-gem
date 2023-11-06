@@ -233,10 +233,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{70D97A0E-96CB-5FA7-975D-7CE7DC3CEA63}",
+                                    "guid": "{0D2E4B3B-8982-58C8-862E-79B61F73E7C2}",
                                     "subId": 268916636
                                 },
-                                "assetHint": "assets/urdfimporter/2620430307_otto1500_basic_platform.urdf/otto1500_wheel_front_rear.stl.azmodel"
+                                "assetHint": "otto1500/otto1500basicplatformmeshes/otto1500_wheel_front_rear.stl.azmodel"
                             }
                         }
                     }
@@ -596,10 +596,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{70D97A0E-96CB-5FA7-975D-7CE7DC3CEA63}",
+                                    "guid": "{0D2E4B3B-8982-58C8-862E-79B61F73E7C2}",
                                     "subId": 268916636
                                 },
-                                "assetHint": "assets/urdfimporter/2620430307_otto1500_basic_platform.urdf/otto1500_wheel_front_rear.stl.azmodel"
+                                "assetHint": "otto1500/otto1500basicplatformmeshes/otto1500_wheel_front_rear.stl.azmodel"
                             }
                         }
                     }
@@ -689,10 +689,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{70D97A0E-96CB-5FA7-975D-7CE7DC3CEA63}",
+                                    "guid": "{0D2E4B3B-8982-58C8-862E-79B61F73E7C2}",
                                     "subId": 268916636
                                 },
-                                "assetHint": "assets/urdfimporter/2620430307_otto1500_basic_platform.urdf/otto1500_wheel_front_rear.stl.azmodel"
+                                "assetHint": "otto1500/otto1500basicplatformmeshes/otto1500_wheel_front_rear.stl.azmodel"
                             }
                         }
                     }
@@ -1033,10 +1033,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{70D97A0E-96CB-5FA7-975D-7CE7DC3CEA63}",
+                                    "guid": "{0D2E4B3B-8982-58C8-862E-79B61F73E7C2}",
                                     "subId": 268916636
                                 },
-                                "assetHint": "assets/urdfimporter/2620430307_otto1500_basic_platform.urdf/otto1500_wheel_front_rear.stl.azmodel"
+                                "assetHint": "otto1500/otto1500basicplatformmeshes/otto1500_wheel_front_rear.stl.azmodel"
                             }
                         }
                     }
@@ -1396,10 +1396,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{C270CA73-FFF1-55D8-95AC-87A91812E383}",
+                                    "guid": "{E3E49B7D-D688-594F-82EC-6FEB8AD10862}",
                                     "subId": 277864421
                                 },
-                                "assetHint": "assets/urdfimporter/2620430307_otto1500_basic_platform.urdf/otto1500_wheel_center.stl.azmodel"
+                                "assetHint": "otto1500/otto1500basicplatformmeshes/otto1500_wheel_center.stl.azmodel"
                             }
                         }
                     }
@@ -1489,10 +1489,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{E5F41FF9-3859-57DA-8CD2-5062F5FC027D}",
+                                    "guid": "{6A947F25-4E55-5509-990B-AC20E836AB4C}",
                                     "subId": 280463597
                                 },
-                                "assetHint": "assets/importer/otto1500.fbx.azmodel"
+                                "assetHint": "otto1500/otto1500.fbx.azmodel"
                             }
                         }
                     }
@@ -1536,9 +1536,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{F08349A0-1943-550C-B385-715DB7D41B78}"
+                                                "guid": "{15605589-1183-56B8-AAA7-11DEBC896C3F}"
                                             },
-                                            "assetHint": "assets/importer/otto1500_otto_1500.azmaterial"
+                                            "assetHint": "otto1500/materials/otto1500_otto_1500.azmaterial"
                                         }
                                     }
                                 },
@@ -1549,9 +1549,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{CAEBBA05-9188-537A-9A44-2D633B3FF727}"
+                                                "guid": "{3566442E-666D-58B8-9F09-17EBE012CE4E}"
                                             },
-                                            "assetHint": "assets/importer/otto1500_otto_1500_lights_front.azmaterial"
+                                            "assetHint": "otto1500/materials/otto1500_otto_1500_lights_front.azmaterial"
                                         }
                                     }
                                 },
@@ -1562,9 +1562,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{D96DB3D5-FAF6-5486-8A48-2F7512CDB0D6}"
+                                                "guid": "{EF794FAD-EAAE-5529-924D-B8961858F1F3}"
                                             },
-                                            "assetHint": "assets/importer/otto1500_otto_1500_lights_back.azmaterial"
+                                            "assetHint": "otto1500/materials/otto1500_otto_1500_lights_back.azmaterial"
                                         }
                                     }
                                 },
@@ -1575,9 +1575,8 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{95C0B96D-AED0-5465-9775-053D4FE2A634}"
-                                            },
-                                            "assetHint": "assets/importer/otto1500_otto_1500_lights_side.azmaterial"
+                                                "guid": "{A2DD811B-0126-5424-A422-BF24205667EF}"
+                                            }
                                         }
                                     }
                                 }
@@ -1933,9 +1932,9 @@
                         "$type": "InputConfigurationComponent",
                         "Input Event Bindings": {
                             "assetId": {
-                                "guid": "{7D2DCE6D-3A85-5781-9EBB-3CA0D979919D}"
+                                "guid": "{41BF3A6E-6255-5F60-AE9A-86B4333D47A9}"
                             },
-                            "assetHint": "prefabs/otto1500/scripts/otto1500robot_inputs.inputbindings"
+                            "assetHint": "otto1500/scripts/otto1500robot_inputs.inputbindings"
                         }
                     }
                 },
@@ -2066,10 +2065,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{C4335321-FD52-5315-B409-9004B3E8881D}",
+                                    "guid": "{22136731-DF1C-500E-BC00-D7F2B3D84BD3}",
                                     "subId": 278063017
                                 },
-                                "assetHint": "assets/urdfimporter/2620430307_otto1500_basic_platform.urdf/platform_a.azmodel"
+                                "assetHint": "otto1500/otto1500basicplatformmeshes/platform_a.stl.azmodel"
                             }
                         }
                     }
@@ -2107,9 +2106,8 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{B8C16643-C1F2-5A5B-843C-EC0C79AC856B}"
-                                            },
-                                            "assetHint": "prefabs/otto1500_platform/otto1500_platform_a/otto1500_platform_a_otto1500_platform_a.azmaterial"
+                                                "guid": "{04E9D43B-E513-5FF6-A57B-BDB421578BA9}"
+                                            }
                                         }
                                     }
                                 }
@@ -2159,10 +2157,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{C270CA73-FFF1-55D8-95AC-87A91812E383}",
+                                    "guid": "{E3E49B7D-D688-594F-82EC-6FEB8AD10862}",
                                     "subId": 277864421
                                 },
-                                "assetHint": "assets/urdfimporter/2620430307_otto1500_basic_platform.urdf/otto1500_wheel_center.stl.azmodel"
+                                "assetHint": "otto1500/otto1500basicplatformmeshes/otto1500_wheel_center.stl.azmodel"
                             }
                         }
                     }

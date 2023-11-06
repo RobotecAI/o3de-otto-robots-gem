@@ -110,7 +110,7 @@
                         },
                         "lidarCore": {
                             "lidarConfiguration": {
-                                "lidarImplementation": "RobotecGPULidar",
+                                "lidarImplementation": "Scene Queries",
                                 "LidarParameters": {
                                     "Points per layer": 128,
                                     "Max horizontal angle": 90.0,
@@ -374,7 +374,7 @@
                         },
                         "lidarCore": {
                             "lidarConfiguration": {
-                                "lidarImplementation": "RobotecGPULidar",
+                                "lidarImplementation": "Scene Queries",
                                 "LidarParameters": {
                                     "Points per layer": 128,
                                     "Max horizontal angle": 90.0,
@@ -2577,10 +2577,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{D0C0E57A-0068-5269-B3A0-A827DD4090D9}",
-                                    "subId": 274705241
+                                    "guid": "{3ACCAA36-3B4D-5048-AF4F-E47C74B82533}",
+                                    "subId": 283674232
                                 },
-                                "assetHint": "prefabs/otto600/default_otto600_1656cfa9_69f2_5d41_85db_1a4fcba4b0f5_.fbx.azmodel"
+                                "assetHint": "otto600/default_otto600_f5ea3703_5bad_5f31_ad19_90c4a5d27587_.fbx.azmodel"
                             }
                         }
                     }
@@ -2647,10 +2647,10 @@
                                     "Name": "Entire object",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{2F57E22F-821C-54CF-9E39-A23019426F54}",
+                                            "guid": "{5EC1775A-BE71-5DD0-8781-57AFDCB13858}",
                                             "subId": 1
                                         },
-                                        "assetHint": "prefabs/otto600/materials/robot_tire.physicsmaterial"
+                                        "assetHint": "otto600/physics/robot_tire.physicsmaterial"
                                     }
                                 }
                             ]
@@ -2797,10 +2797,10 @@
                                     "Name": "Entire object",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{0AA5C56C-C293-5D48-BECC-AD85DA171765}",
+                                            "guid": "{D92BB4D1-83EE-5E2E-9C2B-2F8098EC4E20}",
                                             "subId": 1
                                         },
-                                        "assetHint": "prefabs/otto600/materials/no_friction.physicsmaterial"
+                                        "assetHint": "otto600/physics/no_friction.physicsmaterial"
                                     }
                                 }
                             ]
@@ -3161,9 +3161,9 @@
                         "$type": "InputConfigurationComponent",
                         "Input Event Bindings": {
                             "assetId": {
-                                "guid": "{D9E6F520-94C8-5D5E-AFD6-A0D70086D459}"
+                                "guid": "{0BD9DEAD-835D-5033-9697-09D9286A22B6}"
                             },
-                            "assetHint": "prefabs/otto600/scripts/otto600robot_inputs.inputbindings"
+                            "assetHint": "otto600/scripts/otto600robot_inputs.inputbindings"
                         }
                     }
                 },
@@ -3311,10 +3311,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{D0C0E57A-0068-5269-B3A0-A827DD4090D9}",
-                                    "subId": 274705241
+                                    "guid": "{3ACCAA36-3B4D-5048-AF4F-E47C74B82533}",
+                                    "subId": 275351153
                                 },
-                                "assetHint": "prefabs/otto600/default_otto600_1656cfa9_69f2_5d41_85db_1a4fcba4b0f5_.fbx.azmodel"
+                                "assetHint": "otto600/default_otto600_6085cdfc_1f71_5232_a5fa_13cb2d909be8_.fbx.azmodel"
                             }
                         }
                     }
@@ -3381,10 +3381,10 @@
                                     "Name": "Entire object",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{0AA5C56C-C293-5D48-BECC-AD85DA171765}",
+                                            "guid": "{D92BB4D1-83EE-5E2E-9C2B-2F8098EC4E20}",
                                             "subId": 1
                                         },
-                                        "assetHint": "prefabs/otto600/materials/no_friction.physicsmaterial"
+                                        "assetHint": "otto600/physics/no_friction.physicsmaterial"
                                     }
                                 }
                             ]
@@ -3612,97 +3612,6 @@
                         "SolverVelocityIterations": 10
                     }
                 },
-                "EditorScriptCanvasComponent": {
-                    "$type": "EditorScriptCanvasComponent",
-                    "Id": 8939594795009609009,
-                    "configuration": {
-                        "sourceHandle": {
-                            "id": "{E74C5AFD-6A39-5B3E-9189-2266FA51EE43}",
-                            "path": "Prefabs/Otto600-Platform/LiftAnimationOtto600.scriptcanvas"
-                        },
-                        "sourceName": "LiftAnimationOtto600.scriptcanvas",
-                        "propertyOverrides": {
-                            "source": {
-                                "id": "{E74C5AFD-6A39-5B3E-9189-2266FA51EE43}",
-                                "path": "Prefabs/Otto600-Platform/LiftAnimationOtto600.scriptcanvas"
-                            },
-                            "variables": [
-                                {
-                                    "Datum": {
-                                        "isOverloadedStorage": false,
-                                        "scriptCanvasType": {
-                                            "m_type": 1
-                                        },
-                                        "isNullPointer": false,
-                                        "$type": "EntityId",
-                                        "value": ""
-                                    },
-                                    "VariableId": {
-                                        "m_id": "{198EA003-71F6-4DD1-907E-1B3686677B84}"
-                                    },
-                                    "VariableName": "LiftEntity",
-                                    "InitialValueSource": 1
-                                },
-                                {
-                                    "Datum": {
-                                        "isOverloadedStorage": false,
-                                        "scriptCanvasType": {
-                                            "m_type": 1
-                                        },
-                                        "isNullPointer": false,
-                                        "$type": "EntityId",
-                                        "value": ""
-                                    },
-                                    "VariableId": {
-                                        "m_id": "{D70B845B-F701-4CE8-A126-CED6D2D72369}"
-                                    },
-                                    "VariableName": "MotorEntity",
-                                    "InitialValueSource": 1
-                                }
-                            ],
-                            "overrides": [
-                                {
-                                    "Datum": {
-                                        "isOverloadedStorage": false,
-                                        "scriptCanvasType": {
-                                            "m_type": 1
-                                        },
-                                        "isNullPointer": false,
-                                        "$type": "EntityId",
-                                        "value": "Entity_[466631426571]"
-                                    },
-                                    "InputControlVisibility": {
-                                        "Value": 850104567
-                                    },
-                                    "VariableId": {
-                                        "m_id": "{198EA003-71F6-4DD1-907E-1B3686677B84}"
-                                    },
-                                    "VariableName": "LiftEntity",
-                                    "InitialValueSource": 1
-                                },
-                                {
-                                    "Datum": {
-                                        "isOverloadedStorage": false,
-                                        "scriptCanvasType": {
-                                            "m_type": 1
-                                        },
-                                        "isNullPointer": false,
-                                        "$type": "EntityId",
-                                        "value": "Entity_[406501884427]"
-                                    },
-                                    "InputControlVisibility": {
-                                        "Value": 850104567
-                                    },
-                                    "VariableId": {
-                                        "m_id": "{D70B845B-F701-4CE8-A126-CED6D2D72369}"
-                                    },
-                                    "VariableName": "MotorEntity",
-                                    "InitialValueSource": 1
-                                }
-                            ]
-                        }
-                    }
-                },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 10910652991628068510
@@ -3927,10 +3836,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{D0C0E57A-0068-5269-B3A0-A827DD4090D9}",
-                                    "subId": 274705241
+                                    "guid": "{3ACCAA36-3B4D-5048-AF4F-E47C74B82533}",
+                                    "subId": 273910794
                                 },
-                                "assetHint": "prefabs/otto600/default_otto600_1656cfa9_69f2_5d41_85db_1a4fcba4b0f5_.fbx.azmodel"
+                                "assetHint": "otto600/default_otto600_ae419aab_20f5_5118_8951_f6d76b4a1102_.fbx.azmodel"
                             }
                         }
                     }
@@ -3988,10 +3897,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{D0C0E57A-0068-5269-B3A0-A827DD4090D9}",
-                                    "subId": 274705241
+                                    "guid": "{3ACCAA36-3B4D-5048-AF4F-E47C74B82533}",
+                                    "subId": 281805916
                                 },
-                                "assetHint": "prefabs/otto600/default_otto600_1656cfa9_69f2_5d41_85db_1a4fcba4b0f5_.fbx.azmodel"
+                                "assetHint": "otto600/default_otto600_86bfb3ba_15c9_5db6_8c9d_0642b9635a32_.fbx.azmodel"
                             }
                         }
                     }
@@ -4049,10 +3958,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{68D29BB5-976C-5549-87DB-B4C30628E7E3}",
-                                    "subId": 282067103
+                                    "guid": "{FD819C60-9F72-5814-B859-7734DC33C835}",
+                                    "subId": 278029957
                                 },
-                                "assetHint": "prefabs/otto600-platform/default_otto600platform_c41b2a86_5279_56ab_8747_bd72702efeaa_.fbx.azmodel"
+                                "assetHint": "otto600/platform/default_otto600platform_3725e17a_b586_510d_8a3c_9a3c61d61748_.fbx.azmodel"
                             }
                         }
                     }
@@ -4090,9 +3999,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{E33FDE83-F05B-5EFF-A68E-6D92FCBAF5C5}"
+                                                "guid": "{849EB531-CF01-5844-9192-26779B70E87B}"
                                             },
-                                            "assetHint": "prefabs/otto600-platform/otto600platform_otto600platform.azmaterial"
+                                            "assetHint": "otto600/platform/otto600platform_otto600platform.azmaterial"
                                         }
                                     }
                                 }
@@ -4151,10 +4060,10 @@
                                     "Name": "Entire object",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{2F57E22F-821C-54CF-9E39-A23019426F54}",
+                                            "guid": "{5EC1775A-BE71-5DD0-8781-57AFDCB13858}",
                                             "subId": 1
                                         },
-                                        "assetHint": "prefabs/otto600/materials/robot_tire.physicsmaterial"
+                                        "assetHint": "otto600/physics/robot_tire.physicsmaterial"
                                     }
                                 }
                             ]
@@ -4292,10 +4201,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{D0C0E57A-0068-5269-B3A0-A827DD4090D9}",
-                                    "subId": 274705241
+                                    "guid": "{3ACCAA36-3B4D-5048-AF4F-E47C74B82533}",
+                                    "subId": 278073854
                                 },
-                                "assetHint": "prefabs/otto600/default_otto600_1656cfa9_69f2_5d41_85db_1a4fcba4b0f5_.fbx.azmodel"
+                                "assetHint": "otto600/default_otto600_74235c5c_de1d_542e_aecb_bb072489993b_.fbx.azmodel"
                             }
                         }
                     }
@@ -4362,10 +4271,10 @@
                                     "Name": "Entire object",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{0AA5C56C-C293-5D48-BECC-AD85DA171765}",
+                                            "guid": "{D92BB4D1-83EE-5E2E-9C2B-2F8098EC4E20}",
                                             "subId": 1
                                         },
-                                        "assetHint": "prefabs/otto600/materials/no_friction.physicsmaterial"
+                                        "assetHint": "otto600/physics/no_friction.physicsmaterial"
                                     }
                                 }
                             ]
@@ -4503,10 +4412,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{68D29BB5-976C-5549-87DB-B4C30628E7E3}",
-                                    "subId": 273667124
+                                    "guid": "{FD819C60-9F72-5814-B859-7734DC33C835}",
+                                    "subId": 285099908
                                 },
-                                "assetHint": "prefabs/otto600-platform/default_otto600platform_10e8adf1_1410_52ee_ae8b_af86963a942b_.fbx.azmodel"
+                                "assetHint": "otto600/platform/default_otto600platform_b34d82bd_58c9_5ced_bdf3_b97fb4113968_.fbx.azmodel"
                             }
                         }
                     }
@@ -4547,6 +4456,19 @@
                                                 "guid": "{E33FDE83-F05B-5EFF-A68E-6D92FCBAF5C5}"
                                             },
                                             "assetHint": "prefabs/otto600-platform/otto600platform_otto600platform.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3382174916
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{849EB531-CF01-5844-9192-26779B70E87B}"
+                                            },
+                                            "assetHint": "otto600/platform/otto600platform_otto600platform.azmaterial"
                                         }
                                     }
                                 }
@@ -4663,10 +4585,10 @@
                                     "Name": "Entire object",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{0AA5C56C-C293-5D48-BECC-AD85DA171765}",
+                                            "guid": "{D92BB4D1-83EE-5E2E-9C2B-2F8098EC4E20}",
                                             "subId": 1
                                         },
-                                        "assetHint": "prefabs/otto600/materials/no_friction.physicsmaterial"
+                                        "assetHint": "otto600/physics/no_friction.physicsmaterial"
                                     }
                                 }
                             ]
@@ -4804,10 +4726,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{D0C0E57A-0068-5269-B3A0-A827DD4090D9}",
-                                    "subId": 274705241
+                                    "guid": "{3ACCAA36-3B4D-5048-AF4F-E47C74B82533}",
+                                    "subId": 280571014
                                 },
-                                "assetHint": "prefabs/otto600/default_otto600_1656cfa9_69f2_5d41_85db_1a4fcba4b0f5_.fbx.azmodel"
+                                "assetHint": "otto600/default_otto600_e737036f_c14c_5370_8d38_906484fed28a_.fbx.azmodel"
                             }
                         }
                     }
@@ -4865,10 +4787,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{D0C0E57A-0068-5269-B3A0-A827DD4090D9}",
-                                    "subId": 268661737
+                                    "guid": "{3ACCAA36-3B4D-5048-AF4F-E47C74B82533}",
+                                    "subId": 280161714
                                 },
-                                "assetHint": "prefabs/otto600/default_otto600_a4533a21_d44d_5c0e_a25b_2e1648ad4ade_.fbx.azmodel"
+                                "assetHint": "otto600/default_otto600_d9af6914_f5d3_55e6_af30_182fcffabed8_.fbx.azmodel"
                             }
                         }
                     }
@@ -4906,9 +4828,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{73AD6398-0854-5467-839E-7E0AF9A25146}"
+                                                "guid": "{8A944CFB-2D21-5F61-8975-34D3F4EA900C}"
                                             },
-                                            "assetHint": "prefabs/otto600/otto600_emission03.azmaterial"
+                                            "assetHint": "otto600/materials/otto600_emission03.azmaterial"
                                         }
                                     }
                                 },
@@ -4919,9 +4841,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{BC11CF39-9966-5086-BAAA-67410FCC66B8}"
+                                                "guid": "{C64E55A1-FE09-5184-9865-697F3846B45F}"
                                             },
-                                            "assetHint": "prefabs/otto600/otto600_emission02.azmaterial"
+                                            "assetHint": "otto600/materials/otto600_emission02.azmaterial"
                                         }
                                     }
                                 },
@@ -4932,9 +4854,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{8505748C-1422-57A0-BA40-5E817F0EBBCA}"
+                                                "guid": "{D082E7C6-FD06-5C49-BC06-A253B98A1F0A}"
                                             },
-                                            "assetHint": "prefabs/otto600/otto600_emission01.azmaterial"
+                                            "assetHint": "otto600/materials/otto600_emission01.azmaterial"
                                         }
                                     }
                                 },
@@ -4945,9 +4867,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{A39B27FE-9F92-52CA-A9A5-E5A707BDF6AA}"
+                                                "guid": "{F3650216-F7A1-5F05-B041-50730260F39C}"
                                             },
-                                            "assetHint": "prefabs/otto600/otto600_otto600.azmaterial"
+                                            "assetHint": "otto600/materials/otto600_otto600.azmaterial"
                                         }
                                     }
                                 }
