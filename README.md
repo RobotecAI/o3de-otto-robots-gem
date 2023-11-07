@@ -42,7 +42,7 @@ OTTO 600:
 ![](docs/images/OTTO1500_Lifting_platform_lift.png) <!-- TODO: change image with new fixed model -->
 ![](docs/images/OTTO1500_Lifting_platform_top.png)
 ---
-Movement of the platform can be manually steered using Physix Debug gem or controlled from code using the Pid Motor Controller Component.
+Movement of the platform can be manually steered using PhysX Debug gem or controlled from code using the Pid Motor Controller Component.
 
 ## OTTO 600
 ### OTTO600.prefab
