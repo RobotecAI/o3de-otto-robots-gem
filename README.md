@@ -33,22 +33,19 @@ OTTO 600:
 ## OTTO 1500 v2 - two models
 
 ### OTTO1500_Basic_platform.prefab - containing the small, static platform
-![](docs/images/OTTO1500_Basic_platform_front.png) <!-- TODO: change image with new fixed model -->
-![](docs/images/OTTO1500_Basic_platform_top.png)
+![](docs/images/OTTO1500_Basic_platform_front.png)
 ---
 
 ### OTTO1500_Lifting_platform.prefab - containing the high-lifting platform
-![](docs/images/OTTO1500_Lifting_platform_front.png) <!-- TODO: change image with new fixed model -->
-![](docs/images/OTTO1500_Lifting_platform_lift.png) <!-- TODO: change image with new fixed model -->
-![](docs/images/OTTO1500_Lifting_platform_top.png)
+![](docs/images/OTTO1500_Lifting_platform_front.png)
+![](docs/images/OTTO1500_Lifting_platform_lift.png)
 ---
 Movement of the platform can be manually steered using PhysX Debug Gem or controlled from code using the Pid Motor Controller Component.
 
 ## OTTO 600
-### OTTO600.prefab
+### OTTO600.prefab - containing the lifting platform
 ![](docs/images/OTTO600_front.png)
-![](docs/images/OTTO600_back.png)
-![](docs/images/OTTO600_top.png)
+![](docs/images/OTTO600_front_lift.png)
 
 ## O3DE 
 Robots are delivered as prefabs, containing models and physics, along with the following ROS components:
@@ -56,7 +53,7 @@ Robots are delivered as prefabs, containing models and physics, along with the f
 - ROS2 Robot Control
 - ROS2 Skid Steering Vehicle Model
 - ROS2 Lidar Sensor
-- ROS2 Pid Motor Controller
+- ROS2 PID Motor Controller
 
 ## Acknowledgments
 
