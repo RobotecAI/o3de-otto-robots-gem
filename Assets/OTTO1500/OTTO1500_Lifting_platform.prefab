@@ -474,6 +474,97 @@
                         "SolverVelocityIterations": 10
                     }
                 },
+                "EditorScriptCanvasComponent": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 5585131360177849283,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{C4A10A1E-40FB-512E-994C-126ECA12FE9B}",
+                            "path": "OTTO1500/Platform/LiftAnimation.scriptcanvas"
+                        },
+                        "sourceName": "LiftAnimation.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{C4A10A1E-40FB-512E-994C-126ECA12FE9B}",
+                                "path": "OTTO1500/Platform/LiftAnimation.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": ""
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{198EA003-71F6-4DD1-907E-1B3686677B84}"
+                                    },
+                                    "VariableName": "LiftMesh",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": ""
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{D70B845B-F701-4CE8-A126-CED6D2D72369}"
+                                    },
+                                    "VariableName": "MotorEntity",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": "Entity_[1084955849243]"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{198EA003-71F6-4DD1-907E-1B3686677B84}"
+                                    },
+                                    "VariableName": "LiftMesh",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": "Entity_[1170855195163]"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{D70B845B-F701-4CE8-A126-CED6D2D72369}"
+                                    },
+                                    "VariableName": "MotorEntity",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
+                },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8543309040253375687
