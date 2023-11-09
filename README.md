@@ -15,13 +15,13 @@ Please refer to [O3DE documentation](https://docs.o3de.org/docs/user-guide/gems/
 - Any O3DE project with the [O3DE ROS2 Gem](https://github.com/o3de/o3de-extras/tree/development/Gems/ROS2) enabled.
 
 ## Assets description
-This gem contains the following assets:
+This Gem contains the following assets:
 - [OTTO 1500 v2](https://ottomotors.com/1500)
 - [OTTO 600](https://ottomotors.com/600)
 - High and low stands for OTTO 1500 v2
 - Stand for OTTO 600
 
-O3DE models of the robots are based on the Unified Robot Description Format (urdf) files available in `workspace` folder. The models were converted to O3DE _prefabs_ using a built-in robot importer.
+O3DE models of the robots are based on the Unified Robot Description Format (URDF) files available in `workspace` folder. The models were converted to O3DE _prefabs_ using a built-in robot importer.
 Please note that the structure of the models was developed independently from the actual design, which is not public, and, therefore, might differ. The robots are further simplified and do not include some sensors. In particular:
 
 OTTO 1500:
@@ -48,7 +48,7 @@ Assets
         └── Otto600Stand.prefab
 ```
 
-in which `OTTO1500_Basic_platform.prefab` and `OTTO1500_Lifting_platform.prefab` model OTTO1500 v2 robots with basic and high-lifting platforms respectively matching low and high stands stored in `StandLow.prefab` and `StandHigh.prefab` O3DE _prefabs_. `OTTO600.prefab` models OTTO 600 robot with a lifting platform that can be used with `Otto600Stand.prefab` stand. Robots contain visual models and physics, along with the following ROS components:
+in which `OTTO1500_Basic_platform.prefab` and `OTTO1500_Lifting_platform.prefab` model OTTO1500 v2 robots with basic and high-lifting platforms respectively matching low and high stands stored in `StandLow.prefab` and `StandHigh.prefab` O3DE _prefabs_. `OTTO600.prefab` models OTTO 600 robot with a lifting platform that can be used with `Otto600Stand.prefab` stand. Robots contain visual models, colliders and physics, along with the following ROS components:
 - ROS2 Frame
 - ROS2 Robot Control
 - ROS2 Skid Steering Vehicle Model
