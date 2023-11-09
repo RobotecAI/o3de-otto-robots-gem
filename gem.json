@@ -6,7 +6,7 @@
     "license_url": "https://opensource.org/licenses/Apache-2.0",
     "origin": "RobotecAI",
     "origin_url": "https://robotec.ai",
-    "type": "Asset",
+    "type": "Code",
     "summary": "OTTO1500 and OTTO600 robots by Clearpath with Lidar sensors and stands",
     "canonical_tags": [
         "Gem"
