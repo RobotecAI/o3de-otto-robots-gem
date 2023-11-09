@@ -13,10 +13,11 @@
 
 #include "LightController.h"
 #include <AtomLyIntegration/CommonFeatures/CoreLights/AreaLightBus.h>
-#include <ROS2/ROS2Bus.h>
 #include <ROS2/Frame/ROS2FrameComponent.h>
+#include <ROS2/ROS2Bus.h>
 #include <ROS2/Utilities/ROS2Names.h>
-namespace ROS2::Demo
+
+namespace ROS2::OTTORobots
 {
 
     void LightControllerConfiguration::Reflect(AZ::ReflectContext* context)
@@ -38,7 +39,7 @@ namespace ROS2::Demo
                     ->DataElement(
                         AZ::Edit::UIHandlers::Default, &LightControllerConfiguration::m_topicConfiguration, "Topic configuration", "")
                     ->DataElement(
-                        AZ::Edit::UIHandlers::Default, &LightControllerConfiguration::m_lightEntityIdList, "LightEntiesToModify", "");
+                        AZ::Edit::UIHandlers::Default, &LightControllerConfiguration::m_lightEntityIdList, "LightEntitiesToModify", "");
             }
         }
     }
@@ -74,8 +75,9 @@ namespace ROS2::Demo
     {
         for (const auto& lightEntityId : m_config.m_lightEntityIdList)
         {
-            AZ_Assert(m_orignalColor.contains(lightEntityId), "Light entity id not found in original color map");
-            AZ::Render::AreaLightRequestBus::Event(lightEntityId, &AZ::Render::AreaLightRequests::SetColor, m_orignalColor.at(lightEntityId));
+            AZ_Assert(m_originalColor.contains(lightEntityId), "Light entity id not found in original color map");
+            AZ::Render::AreaLightRequestBus::Event(
+                lightEntityId, &AZ::Render::AreaLightRequests::SetColor, m_originalColor.at(lightEntityId));
         }
     }
 
@@ -87,7 +89,7 @@ namespace ROS2::Demo
         AZ_Assert(ros2Frame, "Missing ROS2FrameComponent");
         AZStd::string topic = ROS2Names::GetNamespacedName(ros2Frame->GetNamespace(), m_config.m_topicConfiguration.m_topic);
 
-        m_colorSubcriber = ros2Interface->GetNode()->create_subscription<std_msgs::msg::String>(
+        m_colorSubscriber = ros2Interface->GetNode()->create_subscription<std_msgs::msg::String>(
             topic.c_str(),
             m_config.m_topicConfiguration.GetQoS(),
             [&](std_msgs::msg::String msg)
@@ -117,14 +119,14 @@ namespace ROS2::Demo
 
     void LightController::OnTick(float deltaTime, AZ::ScriptTimePoint time)
     {
-        m_orignalColor.clear();
+        m_originalColor.clear();
         for (const auto& entityId : m_config.m_lightEntityIdList)
         {
             AZ::Color color;
             AZ::Render::AreaLightRequestBus::EventResult(color, entityId, &AZ::Render::AreaLightRequests::GetColor);
-            m_orignalColor[entityId] = color;
+            m_originalColor[entityId] = color;
         }
         AZ::TickBus::Handler::BusDisconnect();
     }
 
-} // namespace ROS2::Demo
+} // namespace ROS2::OTTORobots

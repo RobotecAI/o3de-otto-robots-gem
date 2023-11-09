@@ -3,6 +3,10 @@
 #
 # SPDX-License-Identifier: Apache-2.0 OR MIT
 set(FILES
+    Source/Lights/LightController.cpp
+    Source/Lights/LightController.h
+    Source/Scripting/LifterController.cpp
+    Source/Scripting/LifterController.h
     Source/OTTORobotsModuleInterface.cpp
     Source/OTTORobotsModuleInterface.h
 )

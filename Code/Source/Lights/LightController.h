@@ -14,7 +14,8 @@
 #include <ROS2/Communication/TopicConfiguration.h>
 #include <rclcpp/subscription.hpp>
 #include <std_msgs/msg/string.hpp>
-namespace ROS2::Demo
+
+namespace ROS2::OTTORobots
 {
     class LightControllerConfiguration
     {
@@ -61,8 +62,8 @@ namespace ROS2::Demo
         void SetColor(const AZ::Color& color) const;
         void ResetColor() const;
 
-        std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String>> m_colorSubcriber;
+        std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String>> m_colorSubscriber;
         LightControllerConfiguration m_config;
-        AZStd::unordered_map<AZ::EntityId, AZ::Color> m_orignalColor;
+        AZStd::unordered_map<AZ::EntityId, AZ::Color> m_originalColor;
     };
-} // namespace ROS2::Demo
+} // namespace ROS2::OTTORobots

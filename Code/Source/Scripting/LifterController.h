@@ -14,7 +14,7 @@
 #include <std_msgs/msg/bool.hpp>
 #include <std_msgs/msg/detail/bool__struct.hpp>
 
-namespace ROS2::Demo
+namespace ROS2::OTTORobots
 {
     class LifterControllerComponent : public AZ::Component
     {
@@ -37,4 +37,4 @@ namespace ROS2::Demo
         ROS2::TopicConfiguration m_topicConfiguration;
         float m_setpoint;
     };
-} // namespace ROS2::Demo
+} // namespace ROS2::OTTORobots

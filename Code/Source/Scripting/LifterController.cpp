@@ -20,7 +20,7 @@
 #include <ROS2/ROS2GemUtilities.h>
 #include <std_msgs/msg/detail/bool__struct.hpp>
 
-namespace ROS2::Demo
+namespace ROS2::OTTORobots
 {
     void LifterControllerComponent::Reflect(AZ::ReflectContext* context)
     {
@@ -72,4 +72,4 @@ namespace ROS2::Demo
     {
         m_lifterTopicSubscriber.reset();
     }
-} // namespace ROS2::Demo
+} // namespace ROS2::OTTORobots

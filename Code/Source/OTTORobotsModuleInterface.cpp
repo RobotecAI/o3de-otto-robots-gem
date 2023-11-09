@@ -7,7 +7,10 @@
  *
  */
 #include "OTTORobotsModuleInterface.h"
+
 #include <AzCore/Memory/Memory.h>
+#include <Lights/LightController.h>
+#include <Scripting/LifterController.h>
 
 namespace OTTORobots
 {
@@ -17,6 +20,8 @@ namespace OTTORobots
 
     OTTORobotsModuleInterface::OTTORobotsModuleInterface()
     {
-        m_descriptors.insert(m_descriptors.end(), {});
+        m_descriptors.insert(
+            m_descriptors.end(),
+            { ROS2::OTTORobots::LifterControllerComponent::CreateDescriptor(), ROS2::OTTORobots::LightController::CreateDescriptor() });
     }
 } // namespace OTTORobots
