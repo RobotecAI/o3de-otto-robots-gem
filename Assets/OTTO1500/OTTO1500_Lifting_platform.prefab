@@ -333,7 +333,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{A2DD811B-0126-5424-A422-BF24205667EF}"
-                                            }
+                                            },
+                                            "assetHint": "otto1500/materials/otto1500_otto_1500_lights_side.azmaterial"
                                         }
                                     }
                                 }
@@ -605,10 +606,10 @@
                                     "Name": "Entire object",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{73E4C883-CDAE-5722-A955-6DCF5E43D5D4}",
+                                            "guid": "{80FB8F96-27D6-570B-A679-F1987F2D58E9}",
                                             "subId": 1
                                         },
-                                        "assetHint": "prefabs/otto1500/materials/no_friction.physicsmaterial"
+                                        "assetHint": "otto1500/physics/no_friction.physicsmaterial"
                                     }
                                 }
                             ]
@@ -1171,7 +1172,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{328613CB-F807-5275-A03D-C5141E9F7C57}"
-                                            }
+                                            },
+                                            "assetHint": "otto1500/platform/otto1500_platfrom_b/platformb_platfrom_b.azmaterial"
                                         }
                                     }
                                 }
@@ -1225,10 +1227,10 @@
                                     "Name": "Entire object",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{73E4C883-CDAE-5722-A955-6DCF5E43D5D4}",
+                                            "guid": "{80FB8F96-27D6-570B-A679-F1987F2D58E9}",
                                             "subId": 1
                                         },
-                                        "assetHint": "prefabs/otto1500/materials/no_friction.physicsmaterial"
+                                        "assetHint": "otto1500/physics/no_friction.physicsmaterial"
                                     }
                                 }
                             ]
@@ -1360,10 +1362,10 @@
                                     "Name": "Entire object",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{73E4C883-CDAE-5722-A955-6DCF5E43D5D4}",
+                                            "guid": "{80FB8F96-27D6-570B-A679-F1987F2D58E9}",
                                             "subId": 1
                                         },
-                                        "assetHint": "prefabs/otto1500/materials/no_friction.physicsmaterial"
+                                        "assetHint": "otto1500/physics/no_friction.physicsmaterial"
                                     }
                                 }
                             ]
@@ -1495,10 +1497,10 @@
                                     "Name": "Entire object",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{73E4C883-CDAE-5722-A955-6DCF5E43D5D4}",
+                                            "guid": "{80FB8F96-27D6-570B-A679-F1987F2D58E9}",
                                             "subId": 1
                                         },
-                                        "assetHint": "prefabs/otto1500/materials/no_friction.physicsmaterial"
+                                        "assetHint": "otto1500/physics/no_friction.physicsmaterial"
                                     }
                                 }
                             ]
@@ -1630,10 +1632,10 @@
                                     "Name": "Entire object",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{C2FAAC05-C626-5249-9E32-B55FC5B62C8B}",
+                                            "guid": "{6B1C35A7-9192-5705-97B9-25E6DD6461FC}",
                                             "subId": 1
                                         },
-                                        "assetHint": "prefabs/otto1500/materials/robot_tire.physicsmaterial"
+                                        "assetHint": "otto1500/physics/robot_tire.physicsmaterial"
                                     }
                                 }
                             ]
@@ -2040,10 +2042,10 @@
                                     "Name": "Entire object",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{C2FAAC05-C626-5249-9E32-B55FC5B62C8B}",
+                                            "guid": "{6B1C35A7-9192-5705-97B9-25E6DD6461FC}",
                                             "subId": 1
                                         },
-                                        "assetHint": "prefabs/otto1500/materials/robot_tire.physicsmaterial"
+                                        "assetHint": "otto1500/physics/robot_tire.physicsmaterial"
                                     }
                                 }
                             ]
@@ -2212,7 +2214,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{328613CB-F807-5275-A03D-C5141E9F7C57}"
-                                            }
+                                            },
+                                            "assetHint": "otto1500/platform/otto1500_platfrom_b/platformb_platfrom_b.azmaterial"
                                         }
                                     }
                                 }
