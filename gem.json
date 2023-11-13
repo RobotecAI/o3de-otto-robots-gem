@@ -2,11 +2,11 @@
     "gem_name": "OTTORobots",
     "version": "1.0.0",
     "display_name": "OTTORobots",
-    "license": "CC BY-NC-SA 4.0 DEED",
-    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "license": "Apache-2.0",
+    "license_url": "https://opensource.org/licenses/Apache-2.0",
     "origin": "RobotecAI",
     "origin_url": "https://robotec.ai",
-    "type": "Asset",
+    "type": "Code",
     "summary": "OTTO1500 and OTTO600 robots by Clearpath with Lidar sensors and stands",
     "canonical_tags": [
         "Gem"
@@ -15,9 +15,10 @@
         "OTTORobots"
     ],
     "platforms": [
-        ""
+        "Linux"
     ],
     "icon_path": "preview.png",
+    "requirements": "This gem requires ROS2, and PhysX gems.",
     "dependencies": [
         "ROS2",
         "PhysX"
