@@ -126,7 +126,7 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "DefaultMaterial"
+                                    "Name": "Stand"
                                 }
                             ]
                         }
@@ -135,19 +135,19 @@
                         "PhysicsAsset": {
                             "Asset": {
                                 "assetId": {
-                                    "guid": "{45A344C8-87FF-50DB-A08F-AA4912DA8098}",
-                                    "subId": 2874233289
+                                    "guid": "{282E6606-A4E3-5EB9-BDEC-D230EAC85225}",
+                                    "subId": 1115327448
                                 },
-                                "assetHint": "otto600/stand/otto600standcollider-1.fbx.pxmesh"
+                                "assetHint": "otto600/stand/otto600stand.fbx.pxmesh"
                             },
                             "Configuration": {
                                 "PhysicsAsset": {
                                     "assetId": {
-                                        "guid": "{45A344C8-87FF-50DB-A08F-AA4912DA8098}",
-                                        "subId": 2874233289
+                                        "guid": "{282E6606-A4E3-5EB9-BDEC-D230EAC85225}",
+                                        "subId": 1115327448
                                     },
                                     "loadBehavior": "QueueLoad",
-                                    "assetHint": "otto600/stand/otto600standcollider-1.fbx.pxmesh"
+                                    "assetHint": "otto600/stand/otto600stand.fbx.pxmesh"
                                 }
                             }
                         }
