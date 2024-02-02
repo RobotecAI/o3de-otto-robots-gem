@@ -21,7 +21,7 @@
     "requirements": "This gem requires ROS2, and PhysX gems.",
     "dependencies": [
         "ROS2",
-        "PhysX"
+        "PhysX5"
     ],
     "repo_uri": "https://github.com/RobotecAI/o3de-otto-robots-gem",
     "restricted": "OTTORobots"
