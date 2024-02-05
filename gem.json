@@ -20,7 +20,7 @@
     "icon_path": "preview.png",
     "requirements": "This gem requires ROS2, and PhysX gems.",
     "dependencies": [
-        "ROS2",
+        "ROS2==3.0.0"
         "PhysX5"
     ],
     "repo_uri": "https://github.com/RobotecAI/o3de-otto-robots-gem",
