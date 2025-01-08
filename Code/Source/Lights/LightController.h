@@ -15,7 +15,7 @@
 #include <rclcpp/subscription.hpp>
 #include <std_msgs/msg/string.hpp>
 
-namespace ROS2::OTTORobots
+namespace OTTORobots
 {
     class LightControllerConfiguration
     {
@@ -66,4 +66,4 @@ namespace ROS2::OTTORobots
         LightControllerConfiguration m_config;
         AZStd::unordered_map<AZ::EntityId, AZ::Color> m_originalColor;
     };
-} // namespace ROS2::OTTORobots
+} // namespace OTTORobots
