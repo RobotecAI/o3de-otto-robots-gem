@@ -49,7 +49,7 @@ namespace ROS2::OTTORobots
         LightControllerConfiguration::Reflect(context);
         if (AZ::SerializeContext* serialize = azrtti_cast<AZ::SerializeContext*>(context))
         {
-            serialize->Class<LightController>()->Version(1)->Field("configuration", &LightController::m_config);
+            serialize->Class<LightController, AZ::Component>()->Version(1)->Field("configuration", &LightController::m_config);
 
             if (AZ::EditContext* ec = serialize->GetEditContext())
             {
