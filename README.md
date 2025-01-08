@@ -87,6 +87,16 @@ The set of pre-defined colors includes _WHITE_,  _GREEN_,  _YELLOW_, _MAGENTA_, 
 ![](docs/images/OTTO600_lights.png)
 `OTTO600.prefab` models with different light configurations: _top row_: default, WHITE, GREEN, YELLOW, MAGENTA, PURPLE; _bottom row_: RED, BLUE, CYAN, ORANGE, PINK, default
 
+## Release notes
+### 2.0.0 for O3DE 2409.x
+Changes compared to `1.0.0`
+- Modified to work with `ROS2 Gem >= 3.1.0`
+- Changed the namespace from `ROS2::OTTORobots` to `OTTORobots`
+- Fixed build (switched off non-existing tests; modified cmake, fixed serialization)
+
+### 1.0.0 for O3DE 2310.x
+Initial release prepared for initial version of [ROSCon2023Demo](https://github.com/RobotecAI/ROSCon2023Demo)
+
 ## Acknowledgments
 
 Models were created based on STL files kindly shared by OTTO Motors.
