@@ -20,7 +20,7 @@
 #include <ROS2/ROS2GemUtilities.h>
 #include <std_msgs/msg/detail/bool__struct.hpp>
 
-namespace ROS2::OTTORobots
+namespace OTTORobots
 {
     void LifterControllerComponent::Reflect(AZ::ReflectContext* context)
     {
@@ -35,7 +35,7 @@ namespace ROS2::OTTORobots
             {
                 editContext->Class<LifterControllerComponent>("LifterControllerComponent", "LifterControllerComponent")
                     ->ClassElement(AZ::Edit::ClassElements::EditorData, "")
-                    ->Attribute(AZ::Edit::Attributes::Category, "ROS2::Demo")
+                    ->Attribute(AZ::Edit::Attributes::Category, "OTTORobots")
                     ->Attribute(AZ::Edit::Attributes::AppearsInAddComponentMenu, AZ_CRC_CE("Game"))
                     ->DataElement(
                         AZ::Edit::UIHandlers::Default, &LifterControllerComponent::m_topicConfiguration, "Topic configuration", "")
@@ -52,7 +52,7 @@ namespace ROS2::OTTORobots
 
     void LifterControllerComponent::Activate()
     {
-        auto* ros2Interface = ROS2Interface::Get();
+        auto* ros2Interface = ROS2::ROS2Interface::Get();
         AZ_Assert(ros2Interface, "ROS2 interface not available");
         auto* ros2Frame = ROS2::Utils::GetGameOrEditorComponent<ROS2::ROS2FrameComponent>(GetEntity());
         AZ_Assert(ros2Frame, "Missing ROS2FrameComponent");
@@ -64,7 +64,8 @@ namespace ROS2::OTTORobots
             [&](std_msgs::msg::Bool msg)
             {
                 float setpoint = msg.data ? m_setpoint : 0.;
-                PidMotorControllerRequestBus::Event(GetEntityId(), &PidMotorControllerRequestBus::Events::SetSetpoint, setpoint);
+                ROS2::PidMotorControllerRequestBus::Event(
+                    GetEntityId(), &ROS2::PidMotorControllerRequestBus::Events::SetSetpoint, setpoint);
             });
     }
 
@@ -72,4 +73,4 @@ namespace ROS2::OTTORobots
     {
         m_lifterTopicSubscriber.reset();
     }
-} // namespace ROS2::OTTORobots
+} // namespace OTTORobots

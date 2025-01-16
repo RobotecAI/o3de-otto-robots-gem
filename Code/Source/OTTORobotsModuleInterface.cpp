@@ -22,6 +22,6 @@ namespace OTTORobots
     {
         m_descriptors.insert(
             m_descriptors.end(),
-            { ROS2::OTTORobots::LifterControllerComponent::CreateDescriptor(), ROS2::OTTORobots::LightController::CreateDescriptor() });
+            { OTTORobots::LifterControllerComponent::CreateDescriptor(), OTTORobots::LightController::CreateDescriptor() });
     }
 } // namespace OTTORobots

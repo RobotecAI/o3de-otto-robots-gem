@@ -17,7 +17,7 @@
 #include <ROS2/ROS2Bus.h>
 #include <ROS2/Utilities/ROS2Names.h>
 
-namespace ROS2::OTTORobots
+namespace OTTORobots
 {
 
     void LightControllerConfiguration::Reflect(AZ::ReflectContext* context)
@@ -35,7 +35,7 @@ namespace ROS2::OTTORobots
                 editContext->Class<LightControllerConfiguration>("LightControllerConfiguration", "LightControllerConfiguration")
                     ->ClassElement(AZ::Edit::ClassElements::EditorData, "")
                     ->Attribute(AZ::Edit::Attributes::AppearsInAddComponentMenu, AZ_CRC("Game"))
-                    ->Attribute(AZ::Edit::Attributes::Category, "ROS2 Utilities")
+                    ->Attribute(AZ::Edit::Attributes::Category, "OTTORobots")
                     ->DataElement(
                         AZ::Edit::UIHandlers::Default, &LightControllerConfiguration::m_topicConfiguration, "Topic configuration", "")
                     ->DataElement(
@@ -49,14 +49,14 @@ namespace ROS2::OTTORobots
         LightControllerConfiguration::Reflect(context);
         if (AZ::SerializeContext* serialize = azrtti_cast<AZ::SerializeContext*>(context))
         {
-            serialize->Class<LightController>()->Version(1)->Field("configuration", &LightController::m_config);
+            serialize->Class<LightController, AZ::Component>()->Version(1)->Field("configuration", &LightController::m_config);
 
             if (AZ::EditContext* ec = serialize->GetEditContext())
             {
                 ec->Class<LightController>("LightController", "LightController.")
                     ->ClassElement(AZ::Edit::ClassElements::EditorData, "{")
                     ->Attribute(AZ::Edit::Attributes::AppearsInAddComponentMenu, AZ_CRC("Game"))
-                    ->Attribute(AZ::Edit::Attributes::Category, "ROS2::Demo")
+                    ->Attribute(AZ::Edit::Attributes::Category, "OTTORobots")
                     ->DataElement(AZ::Edit::UIHandlers::Default, &LightController::m_config, "configuration", "configuration")
                     ->Attribute(AZ::Edit::Attributes::Visibility, AZ::Edit::PropertyVisibility::ShowChildrenOnly);
             }
@@ -83,11 +83,11 @@ namespace ROS2::OTTORobots
 
     void LightController::Activate()
     {
-        auto* ros2Interface = ROS2Interface::Get();
+        auto* ros2Interface = ROS2::ROS2Interface::Get();
         AZ_Assert(ros2Interface, "ROS2 interface not available");
         auto* ros2Frame = ROS2::Utils::GetGameOrEditorComponent<ROS2::ROS2FrameComponent>(GetEntity());
         AZ_Assert(ros2Frame, "Missing ROS2FrameComponent");
-        AZStd::string topic = ROS2Names::GetNamespacedName(ros2Frame->GetNamespace(), m_config.m_topicConfiguration.m_topic);
+        AZStd::string topic = ROS2::ROS2Names::GetNamespacedName(ros2Frame->GetNamespace(), m_config.m_topicConfiguration.m_topic);
 
         m_colorSubscriber = ros2Interface->GetNode()->create_subscription<std_msgs::msg::String>(
             topic.c_str(),
@@ -129,4 +129,4 @@ namespace ROS2::OTTORobots
         AZ::TickBus::Handler::BusDisconnect();
     }
 
-} // namespace ROS2::OTTORobots
+} // namespace OTTORobots
