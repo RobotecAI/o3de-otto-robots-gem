@@ -209,7 +209,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{ECDF553D-D923-5103-9BE9-08C43056AAFA}"
-                                            }
+                                            },
+                                            "assetHint": "otto1500/platform/otto1500_platfrom_b/otto1500_platform_b.azmaterial"
                                         }
                                     }
                                 }
@@ -1009,8 +1010,8 @@
                                     "WheelRadius": 0.09000000357627869
                                 }
                             ],
-                            "Track": 0.0,
-                            "Wheelbase": 0.8999999761581421
+                            "Track": 0.8999999761581421,
+                            "Wheelbase": 0.0
                         },
                         "DriveModel": {
                             "Limits": {
@@ -1187,7 +1188,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{ECDF553D-D923-5103-9BE9-08C43056AAFA}"
-                                            }
+                                            },
+                                            "assetHint": "otto1500/platform/otto1500_platfrom_b/otto1500_platform_b.azmaterial"
                                         }
                                     }
                                 }
@@ -1751,6 +1753,14 @@
                             0.1469999998807907
                         ]
                     }
+                },
+                "WheelControllerComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 8835928391711023200,
+                    "m_template": {
+                        "$type": "WheelControllerComponent",
+                        "SteeringEntity": ""
+                    }
                 }
             }
         },
@@ -2159,6 +2169,14 @@
                             0.1469999998807907
                         ]
                     }
+                },
+                "WheelControllerComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 16206745579656469095,
+                    "m_template": {
+                        "$type": "WheelControllerComponent",
+                        "SteeringEntity": ""
+                    }
                 }
             }
         },
@@ -2228,7 +2246,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{ECDF553D-D923-5103-9BE9-08C43056AAFA}"
-                                            }
+                                            },
+                                            "assetHint": "otto1500/platform/otto1500_platfrom_b/otto1500_platform_b.azmaterial"
                                         }
                                     }
                                 }
