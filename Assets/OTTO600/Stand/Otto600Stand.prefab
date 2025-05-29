@@ -88,6 +88,11 @@
                     "$type": "EditorMeshColliderComponent",
                     "Id": 7719347654338345666,
                     "ColliderConfiguration": {
+                        "Position": [
+                            0.0,
+                            -0.4043791890144348,
+                            0.0
+                        ],
                         "Rotation": [
                             0.0,
                             0.0,
@@ -203,7 +208,8 @@
                                     "MaterialAsset": {
                                         "assetId": {
                                             "guid": "{CA7495FB-EF8E-5E6C-BA8D-696D520C09F3}"
-                                        }
+                                        },
+                                        "assetHint": "otto600/stand/otto600stand.azmaterial"
                                     }
                                 }
                             }
