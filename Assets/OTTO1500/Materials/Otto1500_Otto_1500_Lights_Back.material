@@ -2,11 +2,11 @@
     "materialType": "@projectroot@/Cache/Intermediate Assets/materials/types/standardpbr_generated.materialtype",
     "materialTypeVersion": 5,
     "propertyValues": {
-        "baseColor.textureMap": "../Textures/Otto_1500_Lights_Back_BaseColor.png",
-        "emissive.textureMap": "../Textures/Otto_1500_Lights_Back_Emmisive.png",
-        "metallic.textureMap": "../Textures/Otto_1500_Lights_Back_Metallic.png",
+        "baseColor.textureMap": "../Models/Materials/Textures/Otto1500_LightsBack_BaseColor.png",
+        "emissive.textureMap": "../Models/Materials/Textures/Otto1500_LightsBack_Emmisive.png",
+        "metallic.textureMap": "../Models/Materials/Textures/Otto1500_LightsBack_Metallic.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.5,
-        "roughness.textureMap": "../Textures/Otto_1500_Lights_Back_Roughness.png"
+        "roughness.textureMap": "../Models/Materials/Textures/Otto1500_LightsBack_Roughness.png"
     }
 }

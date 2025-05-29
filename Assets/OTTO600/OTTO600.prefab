@@ -2468,10 +2468,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{3ACCAA36-3B4D-5048-AF4F-E47C74B82533}",
-                                    "subId": 283674232
+                                    "guid": "{695F0A5B-BA43-5816-8925-BE65AEB1ED8D}",
+                                    "subId": 273598516
                                 },
-                                "assetHint": "otto600/default_otto600_f5ea3703_5bad_5f31_ad19_90c4a5d27587_.fbx.azmodel"
+                                "assetHint": "otto600/models/default_otto600_96649e6a_50dd_567e_9598_89735f9b7c54_.fbx.azmodel"
                             }
                         }
                     }
@@ -2511,10 +2511,7 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 5603363823810660091,
-                    "Parent Entity": "Entity_[367847178763]",
-                    "Transform Data": {
-                        "UniformScale": 0.009999999776482582
-                    }
+                    "Parent Entity": "Entity_[367847178763]"
                 }
             }
         },
@@ -2649,8 +2646,7 @@
                     "$type": "ROS2FrameEditorComponent",
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_CR",
-                        "Joint Name": "wheel_CR_joint",
-                        "Effective namespace": "base_link"
+                        "Joint Name": "wheel_CR_joint"
                     }
                 },
                 "TransformComponent": {
@@ -3109,8 +3105,7 @@
                         "Namespace Configuration": {
                             "Namespace": "base_link"
                         },
-                        "Frame Name": "base_link",
-                        "Effective namespace": "base_link"
+                        "Frame Name": "base_link"
                     }
                 },
                 "ROS2OdometrySensorComponent": {
@@ -3208,10 +3203,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{3ACCAA36-3B4D-5048-AF4F-E47C74B82533}",
-                                    "subId": 275351153
+                                    "guid": "{695F0A5B-BA43-5816-8925-BE65AEB1ED8D}",
+                                    "subId": 273598516
                                 },
-                                "assetHint": "otto600/default_otto600_6085cdfc_1f71_5232_a5fa_13cb2d909be8_.fbx.azmodel"
+                                "assetHint": "otto600/models/default_otto600_96649e6a_50dd_567e_9598_89735f9b7c54_.fbx.azmodel"
                             }
                         }
                     }
@@ -3251,10 +3246,7 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 6159509585614812483,
-                    "Parent Entity": "Entity_[479516328459]",
-                    "Transform Data": {
-                        "UniformScale": 0.009999999776482582
-                    }
+                    "Parent Entity": "Entity_[479516328459]"
                 }
             }
         },
@@ -3512,13 +3504,13 @@
                     "Id": 8939594795009609009,
                     "configuration": {
                         "sourceHandle": {
-                            "id": "{E74C5AFD-6A39-5B3E-9189-2266FA51EE43}",
+                            "id": "{CA79E8FA-FCBD-5656-89A9-2FAE0FF71304}",
                             "path": "OTTO600/Platform/LiftAnimation.scriptcanvas"
                         },
-                        "sourceName": "LiftAnimationOtto600.scriptcanvas",
+                        "sourceName": "LiftAnimation.scriptcanvas",
                         "propertyOverrides": {
                             "source": {
-                                "id": "{E74C5AFD-6A39-5B3E-9189-2266FA51EE43}",
+                                "id": "{CA79E8FA-FCBD-5656-89A9-2FAE0FF71304}",
                                 "path": "OTTO600/Platform/LiftAnimation.scriptcanvas"
                             },
                             "variables": [
@@ -3604,6 +3596,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 4246889852135280394,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "platform_base",
                         "Joint Name": "platform_base_joint"
@@ -3745,6 +3738,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 17288123412699034089,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "platform_upper",
                         "Joint Name": "platform_upper_joint"
@@ -3818,10 +3812,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{3ACCAA36-3B4D-5048-AF4F-E47C74B82533}",
-                                    "subId": 273910794
+                                    "guid": "{695F0A5B-BA43-5816-8925-BE65AEB1ED8D}",
+                                    "subId": 273598516
                                 },
-                                "assetHint": "otto600/default_otto600_ae419aab_20f5_5118_8951_f6d76b4a1102_.fbx.azmodel"
+                                "assetHint": "otto600/models/default_otto600_96649e6a_50dd_567e_9598_89735f9b7c54_.fbx.azmodel"
                             }
                         }
                     }
@@ -3861,10 +3855,7 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 12493637505676290818,
-                    "Parent Entity": "Entity_[462336459275]",
-                    "Transform Data": {
-                        "UniformScale": 0.009999999776482582
-                    }
+                    "Parent Entity": "Entity_[462336459275]"
                 }
             }
         },
@@ -3879,10 +3870,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{3ACCAA36-3B4D-5048-AF4F-E47C74B82533}",
-                                    "subId": 281805916
+                                    "guid": "{695F0A5B-BA43-5816-8925-BE65AEB1ED8D}",
+                                    "subId": 273598516
                                 },
-                                "assetHint": "otto600/default_otto600_86bfb3ba_15c9_5db6_8c9d_0642b9635a32_.fbx.azmodel"
+                                "assetHint": "otto600/models/default_otto600_96649e6a_50dd_567e_9598_89735f9b7c54_.fbx.azmodel"
                             }
                         }
                     }
@@ -3922,10 +3913,7 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 9733178881028597695,
-                    "Parent Entity": "Entity_[389322015243]",
-                    "Transform Data": {
-                        "UniformScale": 0.009999999776482582
-                    }
+                    "Parent Entity": "Entity_[389322015243]"
                 }
             }
         },
@@ -4153,8 +4141,7 @@
                     "$type": "ROS2FrameEditorComponent",
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_CL",
-                        "Joint Name": "wheel_CL_joint",
-                        "Effective namespace": "base_link"
+                        "Joint Name": "wheel_CL_joint"
                     }
                 },
                 "TransformComponent": {
@@ -4190,10 +4177,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{3ACCAA36-3B4D-5048-AF4F-E47C74B82533}",
-                                    "subId": 278073854
+                                    "guid": "{695F0A5B-BA43-5816-8925-BE65AEB1ED8D}",
+                                    "subId": 273598516
                                 },
-                                "assetHint": "otto600/default_otto600_74235c5c_de1d_542e_aecb_bb072489993b_.fbx.azmodel"
+                                "assetHint": "otto600/models/default_otto600_96649e6a_50dd_567e_9598_89735f9b7c54_.fbx.azmodel"
                             }
                         }
                     }
@@ -4233,10 +4220,7 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 17205227778608021128,
-                    "Parent Entity": "Entity_[449451557387]",
-                    "Transform Data": {
-                        "UniformScale": 0.009999999776482582
-                    }
+                    "Parent Entity": "Entity_[449451557387]"
                 }
             }
         },
@@ -4698,10 +4682,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{3ACCAA36-3B4D-5048-AF4F-E47C74B82533}",
-                                    "subId": 280571014
+                                    "guid": "{695F0A5B-BA43-5816-8925-BE65AEB1ED8D}",
+                                    "subId": 273598516
                                 },
-                                "assetHint": "otto600/default_otto600_e737036f_c14c_5370_8d38_906484fed28a_.fbx.azmodel"
+                                "assetHint": "otto600/models/default_otto600_96649e6a_50dd_567e_9598_89735f9b7c54_.fbx.azmodel"
                             }
                         }
                     }
@@ -4741,10 +4725,7 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 15691846221364367981,
-                    "Parent Entity": "Entity_[372142146059]",
-                    "Transform Data": {
-                        "UniformScale": 0.009999999776482582
-                    }
+                    "Parent Entity": "Entity_[372142146059]"
                 }
             }
         },
@@ -4759,10 +4740,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{3ACCAA36-3B4D-5048-AF4F-E47C74B82533}",
-                                    "subId": 280161714
+                                    "guid": "{695F0A5B-BA43-5816-8925-BE65AEB1ED8D}",
+                                    "subId": 274871622
                                 },
-                                "assetHint": "otto600/default_otto600_d9af6914_f5d3_55e6_af30_182fcffabed8_.fbx.azmodel"
+                                "assetHint": "otto600/models/default_otto600_ed0e5649_2ea6_5f43_9c76_7913172aef7b_.fbx.azmodel"
                             }
                         }
                     }
@@ -4864,10 +4845,7 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 5818932725488436259,
-                    "Parent Entity": "Entity_[415091819019]",
-                    "Transform Data": {
-                        "UniformScale": 0.009999999776482582
-                    }
+                    "Parent Entity": "Entity_[415091819019]"
                 }
             }
         }
