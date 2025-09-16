@@ -359,6 +359,19 @@
                                 },
                                 {
                                     "Key": {
+                                        "materialSlotStableId": 1538822809
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EF794FAD-EAAE-5529-924D-B8961858F1F3}"
+                                            },
+                                            "assetHint": "otto1500/materials/otto1500_otto_1500_lights_back.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
                                         "materialSlotStableId": 1671054312
                                     },
                                     "Value": {
@@ -372,6 +385,19 @@
                                 },
                                 {
                                     "Key": {
+                                        "materialSlotStableId": 1983938250
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3566442E-666D-58B8-9F09-17EBE012CE4E}"
+                                            },
+                                            "assetHint": "otto1500/materials/otto1500_otto_1500_lights_front.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
                                         "materialSlotStableId": 3098057211
                                     },
                                     "Value": {
@@ -380,6 +406,18 @@
                                                 "guid": "{EF794FAD-EAAE-5529-924D-B8961858F1F3}"
                                             },
                                             "assetHint": "otto1500/materials/otto1500_otto_1500_lights_back.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3432782407
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A2DD811B-0126-5424-A422-BF24205667EF}"
+                                            }
                                         }
                                     }
                                 },
