@@ -314,6 +314,19 @@
                                 },
                                 {
                                     "Key": {
+                                        "materialSlotStableId": 414028306
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3566442E-666D-58B8-9F09-17EBE012CE4E}"
+                                            },
+                                            "assetHint": "otto1500/materials/otto1500_otto_1500_lights_front.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
                                         "materialSlotStableId": 706639397
                                     },
                                     "Value": {
@@ -322,6 +335,19 @@
                                                 "guid": "{3566442E-666D-58B8-9F09-17EBE012CE4E}"
                                             },
                                             "assetHint": "otto1500/materials/otto1500_otto_1500_lights_front.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 904318904
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A2DD811B-0126-5424-A422-BF24205667EF}"
+                                            },
+                                            "assetHint": "otto1500/materials/otto1500_otto_1500_lights_side.azmaterial"
                                         }
                                     }
                                 },
@@ -348,6 +374,32 @@
                                                 "guid": "{A2DD811B-0126-5424-A422-BF24205667EF}"
                                             },
                                             "assetHint": "otto1500/materials/otto1500_otto_1500_lights_side.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3098057211
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EF794FAD-EAAE-5529-924D-B8961858F1F3}"
+                                            },
+                                            "assetHint": "otto1500/materials/otto1500_otto_1500_lights_back.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3900594747
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{15605589-1183-56B8-AAA7-11DEBC896C3F}"
+                                            },
+                                            "assetHint": "otto1500/materials/otto1500_otto_1500.azmaterial"
                                         }
                                     }
                                 }
@@ -4349,14 +4401,14 @@
                     "Parent Entity": "Entity_[1089250816539]",
                     "Transform Data": {
                         "Translate": [
-                            0.5959758758544922,
                             -0.8714046478271484,
-                            0.3072481155395508
+                            -0.5959757566452026,
+                            0.3072480857372284
                         ],
                         "Rotate": [
                             0.0,
                             0.0,
-                            89.9986801147461
+                            -0.0013318867422640324
                         ]
                     }
                 }
@@ -4494,14 +4546,14 @@
                     "Parent Entity": "Entity_[1089250816539]",
                     "Transform Data": {
                         "Translate": [
-                            -0.5961513519287109,
                             0.8684597015380859,
-                            0.3072481155395508
+                            0.5961512327194214,
+                            0.3072480857372284
                         ],
                         "Rotate": [
                             0.0,
                             0.0,
-                            -89.99878692626953
+                            -179.99879455566406
                         ]
                     }
                 }
@@ -4640,14 +4692,14 @@
                     "Parent Entity": "Entity_[1089250816539]",
                     "Transform Data": {
                         "Translate": [
-                            -0.6004743576049805,
-                            -0.8631267547607422,
-                            0.3072480261325836
+                            -0.8631265163421631,
+                            0.6004742383956909,
+                            0.30724799633026123
                         ],
                         "Rotate": [
                             0.0,
                             0.0,
-                            0.00005122640868648887
+                            -89.99994659423828
                         ]
                     }
                 }
@@ -4791,14 +4843,14 @@
                     "Parent Entity": "Entity_[1089250816539]",
                     "Transform Data": {
                         "Translate": [
-                            0.604555606842041,
-                            0.8617401123046875,
-                            0.3072481155395508
+                            0.8617396354675293,
+                            -0.604555606842041,
+                            0.3072480857372284
                         ],
                         "Rotate": [
                             0.0,
                             0.0,
-                            179.99989318847656
+                            89.9998779296875
                         ]
                     }
                 }
