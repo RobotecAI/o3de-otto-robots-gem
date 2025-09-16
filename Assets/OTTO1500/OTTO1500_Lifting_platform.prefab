@@ -237,14 +237,7 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 14575522536200525644,
-                    "Parent Entity": "Entity_[1157970293275]",
-                    "Transform Data": {
-                        "Translate": [
-                            0.0,
-                            0.0,
-                            -0.3799999952316284
-                        ]
-                    }
+                    "Parent Entity": "Entity_[1157970293275]"
                 }
             }
         },
@@ -538,13 +531,13 @@
                     "Id": 5585131360177849283,
                     "configuration": {
                         "sourceHandle": {
-                            "id": "{C4A10A1E-40FB-512E-994C-126ECA12FE9B}",
+                            "id": "{610A33D2-76E8-5178-A5E6-0E221475DAFB}",
                             "path": "OTTO1500/Platform/LiftAnimation.scriptcanvas"
                         },
                         "sourceName": "LiftAnimation.scriptcanvas",
                         "propertyOverrides": {
                             "source": {
-                                "id": "{C4A10A1E-40FB-512E-994C-126ECA12FE9B}",
+                                "id": "{610A33D2-76E8-5178-A5E6-0E221475DAFB}",
                                 "path": "OTTO1500/Platform/LiftAnimation.scriptcanvas"
                             },
                             "variables": [
@@ -639,7 +632,14 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 11008486067540714881,
-                    "Parent Entity": "Entity_[1110725653019]"
+                    "Parent Entity": "Entity_[1110725653019]",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
                 }
             }
         },

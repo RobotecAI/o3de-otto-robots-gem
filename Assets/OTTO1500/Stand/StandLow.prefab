@@ -104,7 +104,8 @@
                                             "assetId": {
                                                 "guid": "{B9F5422D-F173-5C87-BDC8-1482916A158B}",
                                                 "subId": 1662997514
-                                            }
+                                            },
+                                            "assetHint": "otto1500/models/otto1500_standlow_otto1500_stand_17743010527121986570.fbx.azmaterial"
                                         }
                                     }
                                 }
@@ -130,14 +131,14 @@
                     "Parent Entity": "Entity_[768075193863]",
                     "Transform Data": {
                         "Translate": [
-                            -5.327715939529298e-7,
+                            0.0,
                             -0.5958949327468872,
                             0.0
                         ],
                         "Rotate": [
                             0.0,
                             0.0,
-                            89.99994659423828
+                            90.0
                         ]
                     }
                 }
