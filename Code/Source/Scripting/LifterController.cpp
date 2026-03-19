@@ -15,9 +15,8 @@
 #include <AzCore/Serialization/SerializeContext.h>
 #include <AzCore/std/string/string.h>
 #include <ROS2/Frame/ROS2FrameComponent.h>
-#include <ROS2/Manipulation/MotorizedJoints/PidMotorControllerBus.h>
+#include <ROS2Controllers/Manipulation/MotorizedJoints/PidMotorControllerComponent.h>
 #include <ROS2/ROS2Bus.h>
-#include <ROS2/ROS2GemUtilities.h>
 #include <std_msgs/msg/detail/bool__struct.hpp>
 
 namespace OTTORobots
@@ -54,18 +53,22 @@ namespace OTTORobots
     {
         auto* ros2Interface = ROS2::ROS2Interface::Get();
         AZ_Assert(ros2Interface, "ROS2 interface not available");
-        auto* ros2Frame = ROS2::Utils::GetGameOrEditorComponent<ROS2::ROS2FrameComponent>(GetEntity());
-        AZ_Assert(ros2Frame, "Missing ROS2FrameComponent");
-        AZStd::string topic = ros2Frame->GetNamespace() + "/" + m_topicConfiguration.m_topic;
+
+        AZStd::string namespaceFromFrame;
+        ROS2::ROS2FrameComponentBus::EventResult(namespaceFromFrame, m_entity->GetId(), &ROS2::ROS2FrameComponentRequests::GetNamespace);
+
+        AZStd::string namespacedTopicName;
+        ROS2::ROS2NamesRequestBus::BroadcastResult(
+            namespacedTopicName, &ROS2::ROS2NamesRequestBus::Events::GetNamespacedName, namespaceFromFrame, m_topicConfiguration.m_topic);
 
         m_lifterTopicSubscriber = ros2Interface->GetNode()->create_subscription<std_msgs::msg::Bool>(
-            topic.c_str(),
+            namespacedTopicName.c_str(),
             m_topicConfiguration.GetQoS(),
             [&](std_msgs::msg::Bool msg)
             {
                 float setpoint = msg.data ? m_setpoint : 0.;
-                ROS2::PidMotorControllerRequestBus::Event(
-                    GetEntityId(), &ROS2::PidMotorControllerRequestBus::Events::SetSetpoint, setpoint);
+                ROS2Controllers::PidMotorControllerRequestBus::Event(
+                    GetEntityId(), &ROS2Controllers::PidMotorControllerRequestBus::Events::SetSetpoint, setpoint);
             });
     }
 
