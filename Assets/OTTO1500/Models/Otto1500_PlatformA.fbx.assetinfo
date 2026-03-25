@@ -1,0 +1,87 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{4ACA3A73-B4A4-5BEA-ADEA-AF4118300271}",
+            "name": "Otto1500_PlatformA",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Otto1500_Platform_A"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Entire object"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Otto1500_PlatformA",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Otto1500_Platform_A"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true,
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.7071067690849304,
+                            0.7071067094802856
+                        ]
+                    }
+                ]
+            },
+            "id": "{EEE3F2DD-4586-5C10-9C38-9287B474D3A9}"
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Otto1500_PlatformA_5845A4B2_07EF_57F3_ABCA_14D4890AAFFA_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Otto1500_Platform_A"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{5845A4B2-07EF-57F3-ABCA-14D4890AAFFA}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "OTTO1500/Models/Otto1500_PlatformA_fbx.procprefab",
+            "id": "{2F48829C-3500-573A-B8D3-898FB6E3223A}"
+        }
+    ]
+}

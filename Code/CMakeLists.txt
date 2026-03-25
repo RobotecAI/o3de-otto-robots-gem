@@ -54,7 +54,8 @@ ly_add_target(
         PUBLIC
         AZ::AzGameFramework
         Gem::Atom_AtomBridge.Static
-        Gem::ROS2.Static
+        Gem::ROS2.API
+        Gem::ROS2Controllers.API
         Gem::RecastNavigation.API
         Gem::EMotionFX.Static
 )
@@ -147,7 +148,6 @@ if(PAL_TRAIT_BUILD_HOST_TOOLS)
                 Gem::${gem_name}.Editor.API
                 AZ::AzGameFramework
                 Gem::Atom_AtomBridge.Static
-                Gem::ROS2.Static
                 Gem::RecastNavigation.API
                 Gem::EMotionFX.Static
             PRIVATE

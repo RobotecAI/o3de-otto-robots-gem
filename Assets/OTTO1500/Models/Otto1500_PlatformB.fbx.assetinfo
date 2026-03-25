@@ -1,0 +1,278 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{C7AD39DE-9E4A-598B-90D3-1938FF3F1012}",
+            "name": "Otto1500_PlatformB",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.Otto1500_Lift",
+                    "RootNode.Otto1500_Lift.Otto1500_PlatfromB_001",
+                    "RootNode.Otto1500_Lift.UVMap",
+                    "RootNode.Otto1500_Lift.custom_properties",
+                    "RootNode.Otto1500_Lift.transform",
+                    "RootNode.Otto1500_LiftUpper",
+                    "RootNode.Otto1500_LiftUpper.Otto1500_PlatfromB_001",
+                    "RootNode.Otto1500_LiftUpper.UVMap",
+                    "RootNode.Otto1500_LiftUpper.custom_properties",
+                    "RootNode.Otto1500_LiftUpper.transform",
+                    "RootNode.Otto1500_PlatformB",
+                    "RootNode.Otto1500_PlatformB.Otto1500_PlatfromB_001",
+                    "RootNode.Otto1500_PlatformB.UVMap",
+                    "RootNode.Otto1500_PlatformB.custom_properties",
+                    "RootNode.Otto1500_PlatformB.transform"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Entire object"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Otto1500_PlatformB",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Otto1500_Lift",
+                    "RootNode.Otto1500_Lift.Otto1500_PlatfromB_001",
+                    "RootNode.Otto1500_Lift.UVMap",
+                    "RootNode.Otto1500_Lift.custom_properties",
+                    "RootNode.Otto1500_Lift.transform",
+                    "RootNode.Otto1500_LiftUpper",
+                    "RootNode.Otto1500_LiftUpper.Otto1500_PlatfromB_001",
+                    "RootNode.Otto1500_LiftUpper.UVMap",
+                    "RootNode.Otto1500_LiftUpper.custom_properties",
+                    "RootNode.Otto1500_LiftUpper.transform",
+                    "RootNode.Otto1500_PlatformB",
+                    "RootNode.Otto1500_PlatformB.Otto1500_PlatfromB_001",
+                    "RootNode.Otto1500_PlatformB.UVMap",
+                    "RootNode.Otto1500_PlatformB.custom_properties",
+                    "RootNode.Otto1500_PlatformB.transform"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "targetCoordinateSystem": 1,
+                        "useAdvancedData": true,
+                        "originNodeName": "RootNode",
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.7071067690849304,
+                            0.7071067094802856
+                        ]
+                    }
+                ]
+            },
+            "id": "{7459F077-18FA-5139-BD7F-35D1FB5651A5}"
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Otto1500_PlatformB_004E443B_3C4A_5FEF_ACC2_382EEDD59412_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Otto1500_Lift"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Otto1500_LiftUpper",
+                    "RootNode.Otto1500_PlatformB"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{004E443B-3C4A-5FEF-ACC2-382EEDD59412}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Otto1500_PlatformB_F1FC7E1F_66DA_5F15_8730_803E536ED92B_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Otto1500_LiftUpper"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Otto1500_Lift",
+                    "RootNode.Otto1500_PlatformB"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{F1FC7E1F-66DA-5F15-8730-803E536ED92B}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Otto1500_PlatformB_970763D1_2966_5184_89AD_722079BCE450_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Otto1500_PlatformB"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Otto1500_Lift",
+                    "RootNode.Otto1500_LiftUpper"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{970763D1-2966-5184-89AD-722079BCE450}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "OTTO1500/Models/Otto1500_PlatformB_fbx.procprefab",
+            "id": "{9CE97549-43C1-5B51-BBA2-45D9A5674D59}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Otto1500_PlatformB_Platform",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Otto1500_PlatformB"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.Otto1500_Lift",
+                    "RootNode.Otto1500_LiftUpper"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true,
+                        "originNodeName": "RootNode",
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.7071067690849304,
+                            0.7071067094802856
+                        ]
+                    }
+                ]
+            },
+            "id": "{0A400C3A-D5F1-4D0A-886F-6ECFFBB93FD9}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Otto1500_PlatformB_LiftUpper",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Otto1500_LiftUpper"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.Otto1500_Lift",
+                    "RootNode.Otto1500_PlatformB"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true,
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.7071067690849304,
+                            0.7071067094802856
+                        ]
+                    }
+                ]
+            },
+            "id": "{BDBB7F80-4A28-42C2-9563-B2FE2299B105}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Otto1500_PlatformB_Lift",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Otto1500_Lift"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.Otto1500_LiftUpper",
+                    "RootNode.Otto1500_PlatformB"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true,
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.7071067690849304,
+                            0.7071067094802856
+                        ]
+                    }
+                ]
+            },
+            "id": "{7E647D07-621E-4990-9977-5DE092AF8437}"
+        }
+    ]
+}

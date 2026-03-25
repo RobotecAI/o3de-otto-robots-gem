@@ -4741,9 +4741,9 @@
                             "ModelAsset": {
                                 "assetId": {
                                     "guid": "{695F0A5B-BA43-5816-8925-BE65AEB1ED8D}",
-                                    "subId": 274871622
+                                    "subId": 273650306
                                 },
-                                "assetHint": "otto600/models/default_otto600_ed0e5649_2ea6_5f43_9c76_7913172aef7b_.fbx.azmodel"
+                                "assetHint": "otto600/models/otto600.fbx.azmodel"
                             }
                         }
                     }

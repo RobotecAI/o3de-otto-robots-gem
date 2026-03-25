@@ -1,0 +1,318 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{FED10A82-C80D-5883-AE43-12A241E3A865}",
+            "name": "Otto1500",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Otto1500_Body",
+                    "RootNode.Otto_Wheel_01_L",
+                    "RootNode.Otto_Wheel_01_R",
+                    "RootNode.Otto_Wheel_02_L",
+                    "RootNode.Otto_Wheel_02_R",
+                    "RootNode.Otto_Wheel_03_L",
+                    "RootNode.Otto_Wheel_03_R"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Entire object"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Otto1500",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Otto1500_Body",
+                    "RootNode.Otto_Wheel_01_L",
+                    "RootNode.Otto_Wheel_01_R",
+                    "RootNode.Otto_Wheel_02_L",
+                    "RootNode.Otto_Wheel_02_R",
+                    "RootNode.Otto_Wheel_03_L",
+                    "RootNode.Otto_Wheel_03_R"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "targetCoordinateSystem": 1,
+                        "useAdvancedData": true,
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.7071067690849304,
+                            0.7071067094802856
+                        ]
+                    }
+                ]
+            },
+            "id": "{44EE32D6-D4CA-5157-B2D4-0BFEA0276615}"
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Otto1500_094FAF62_8FDD_5A2F_B17F_653D4E786870_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Otto_Wheel_03_R"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Otto1500_Body",
+                    "RootNode.Otto_Wheel_01_L",
+                    "RootNode.Otto_Wheel_01_R",
+                    "RootNode.Otto_Wheel_02_L",
+                    "RootNode.Otto_Wheel_02_R",
+                    "RootNode.Otto_Wheel_03_L"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{094FAF62-8FDD-5A2F-B17F-653D4E786870}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Otto1500_B0C8B717_D8F4_53F3_AD74_B0B272029135_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Otto_Wheel_02_R"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Otto1500_Body",
+                    "RootNode.Otto_Wheel_01_L",
+                    "RootNode.Otto_Wheel_01_R",
+                    "RootNode.Otto_Wheel_02_L",
+                    "RootNode.Otto_Wheel_03_L",
+                    "RootNode.Otto_Wheel_03_R"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{B0C8B717-D8F4-53F3-AD74-B0B272029135}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Otto1500_C4D589FB_7AF1_5085_95FF_0FBC540EC325_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Otto_Wheel_02_L"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Otto1500_Body",
+                    "RootNode.Otto_Wheel_01_L",
+                    "RootNode.Otto_Wheel_01_R",
+                    "RootNode.Otto_Wheel_02_R",
+                    "RootNode.Otto_Wheel_03_L",
+                    "RootNode.Otto_Wheel_03_R"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{C4D589FB-7AF1-5085-95FF-0FBC540EC325}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Otto1500_336C0693_5218_5377_B4C0_24DB6416DB18_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Otto_Wheel_01_R"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Otto1500_Body",
+                    "RootNode.Otto_Wheel_01_L",
+                    "RootNode.Otto_Wheel_02_L",
+                    "RootNode.Otto_Wheel_02_R",
+                    "RootNode.Otto_Wheel_03_L",
+                    "RootNode.Otto_Wheel_03_R"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{336C0693-5218-5377-B4C0-24DB6416DB18}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Otto1500_CDE15FE7_5E1A_506B_AB65_0C1C49788B94_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Otto_Wheel_01_L"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Otto1500_Body",
+                    "RootNode.Otto_Wheel_01_R",
+                    "RootNode.Otto_Wheel_02_L",
+                    "RootNode.Otto_Wheel_02_R",
+                    "RootNode.Otto_Wheel_03_L",
+                    "RootNode.Otto_Wheel_03_R"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{CDE15FE7-5E1A-506B-AB65-0C1C49788B94}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Otto1500_7FE1971E_6773_5676_9271_7F2B7D88E0C7_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Otto1500_Body"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Otto_Wheel_01_L",
+                    "RootNode.Otto_Wheel_01_R",
+                    "RootNode.Otto_Wheel_02_L",
+                    "RootNode.Otto_Wheel_02_R",
+                    "RootNode.Otto_Wheel_03_L",
+                    "RootNode.Otto_Wheel_03_R"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{7FE1971E-6773-5676-9271-7F2B7D88E0C7}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_Otto1500_E6481C7A_F87E_5857_ACCC_4E9E20B1468C_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Otto_Wheel_03_L"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Otto1500_Body",
+                    "RootNode.Otto_Wheel_01_L",
+                    "RootNode.Otto_Wheel_01_R",
+                    "RootNode.Otto_Wheel_02_L",
+                    "RootNode.Otto_Wheel_02_R",
+                    "RootNode.Otto_Wheel_03_R"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{E6481C7A-F87E-5857-ACCC-4E9E20B1468C}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "OTTO1500/Models/Otto1500_fbx.procprefab",
+            "id": "{6B6C5179-8169-5692-8377-0966809AEB62}"
+        }
+    ]
+}
