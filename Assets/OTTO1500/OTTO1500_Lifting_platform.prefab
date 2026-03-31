@@ -155,9 +155,9 @@
                             "ModelAsset": {
                                 "assetId": {
                                     "guid": "{10E28C68-0353-5293-B0F0-54D0EAB26525}",
-                                    "subId": 285002843
+                                    "subId": 272407046
                                 },
-                                "assetHint": "otto1500/models/default_otto1500_platformb_004e443b_3c4a_5fef_acc2_382eedd59412_.fbx.azmodel"
+                                "assetHint": "otto1500/models/otto1500_platformb_lift.fbx.azmodel"
                             }
                         }
                     }

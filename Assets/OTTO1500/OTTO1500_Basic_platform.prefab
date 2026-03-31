@@ -50,6 +50,100 @@
         }
     },
     "Entities": {
+        "Entity_[1623676683678]": {
+            "Id": "Entity_[1623676683678]",
+            "Name": "basic_platform_visual",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3259034752661926442,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{17837BE0-E058-5AA4-9EB3-A47D1D63F1CD}",
+                                    "subId": 269519631
+                                },
+                                "assetHint": "otto1500/models/otto1500_platforma.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14556346737118618979
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7736610592776393321
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15053338997561023912
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2012677111403991911
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4203834161933005483
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8228673162048415399,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1900983038
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D1437214-2ABC-5991-A249-480F6DE087E1}"
+                                            },
+                                            "assetHint": "otto1500/platform/otto1500_platform_a/otto1500_platform_a.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2084814471
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{04E9D43B-E513-5FF6-A57B-BDB421578BA9}"
+                                            },
+                                            "assetHint": "otto1500/platform/otto1500_platform_a/otto1500_platform_a_otto1500_platform_a.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5005434318419763258
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4584594338792920262
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9581402835971478273
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11427576186611773679,
+                    "Parent Entity": "Entity_[2472230285851]"
+                }
+            }
+        },
         "Entity_[16359154575719]": {
             "Id": "Entity_[16359154575719]",
             "Name": "lidar_front",
@@ -809,7 +903,8 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 13717270301119892066,
                     "Child Entity Order": [
-                        "Entity_[2528064860699]"
+                        "Entity_[2528064860699]",
+                        "Entity_[1623676683678]"
                     ]
                 },
                 "EditorFixedJointComponent": {
@@ -1478,9 +1573,9 @@
                             "ModelAsset": {
                                 "assetId": {
                                     "guid": "{BA392652-9DEE-578F-ACAF-1EC2D166EF99}",
-                                    "subId": 277198576
+                                    "subId": 280463597
                                 },
-                                "assetHint": "otto1500/models/default_otto1500_7fe1971e_6773_5676_9271_7f2b7d88e0c7_.fbx.azmodel"
+                                "assetHint": "otto1500/models/otto1500.fbx.azmodel"
                             }
                         }
                     }
@@ -1616,7 +1711,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{15605589-1183-56B8-AAA7-11DEBC896C3F}"
-                                            }
+                                            },
+                                            "assetHint": "otto1500/materials/otto1500_otto_1500.azmaterial"
                                         }
                                     }
                                 }
@@ -2106,9 +2202,9 @@
                             "ModelAsset": {
                                 "assetId": {
                                     "guid": "{17837BE0-E058-5AA4-9EB3-A47D1D63F1CD}",
-                                    "subId": 274575712
+                                    "subId": 269519631
                                 },
-                                "assetHint": "otto1500/models/default_otto1500_platforma_5845a4b2_07ef_57f3_abca_14d4890aaffa_.fbx.azmodel"
+                                "assetHint": "otto1500/models/otto1500_platforma.fbx.azmodel"
                             }
                         }
                     }
