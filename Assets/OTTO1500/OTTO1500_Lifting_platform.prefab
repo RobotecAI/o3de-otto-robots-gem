@@ -155,9 +155,9 @@
                             "ModelAsset": {
                                 "assetId": {
                                     "guid": "{10E28C68-0353-5293-B0F0-54D0EAB26525}",
-                                    "subId": 285002843
+                                    "subId": 272407046
                                 },
-                                "assetHint": "otto1500/models/default_otto1500_platformb_004e443b_3c4a_5fef_acc2_382eedd59412_.fbx.azmodel"
+                                "assetHint": "otto1500/models/otto1500_platformb_lift.fbx.azmodel"
                             }
                         }
                     }
@@ -253,9 +253,9 @@
                             "ModelAsset": {
                                 "assetId": {
                                     "guid": "{BA392652-9DEE-578F-ACAF-1EC2D166EF99}",
-                                    "subId": 277198576
+                                    "subId": 280463597
                                 },
-                                "assetHint": "otto1500/models/default_otto1500_7fe1971e_6773_5676_9271_7f2b7d88e0c7_.fbx.azmodel"
+                                "assetHint": "otto1500/models/otto1500.fbx.azmodel"
                             }
                         }
                     }
@@ -417,7 +417,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{A2DD811B-0126-5424-A422-BF24205667EF}"
-                                            }
+                                            },
+                                            "assetHint": "otto1500/materials/otto1500_otto_1500_lights_side.azmaterial"
                                         }
                                     }
                                 },
@@ -1224,9 +1225,9 @@
                             "ModelAsset": {
                                 "assetId": {
                                     "guid": "{10E28C68-0353-5293-B0F0-54D0EAB26525}",
-                                    "subId": 271666637
+                                    "subId": 284294281
                                 },
-                                "assetHint": "otto1500/models/default_otto1500_platformb_f1fc7e1f_66da_5f15_8730_803e536ed92b_.fbx.azmodel"
+                                "assetHint": "otto1500/models/otto1500_platformb_liftupper.fbx.azmodel"
                             }
                         }
                     }
@@ -2282,9 +2283,9 @@
                             "ModelAsset": {
                                 "assetId": {
                                     "guid": "{10E28C68-0353-5293-B0F0-54D0EAB26525}",
-                                    "subId": 274838011
+                                    "subId": 275120656
                                 },
-                                "assetHint": "otto1500/models/default_otto1500_platformb_970763d1_2966_5184_89ad_722079bce450_.fbx.azmodel"
+                                "assetHint": "otto1500/models/otto1500_platformb_platform.fbx.azmodel"
                             }
                         }
                     }
