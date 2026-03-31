@@ -1,0 +1,213 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{2DFB2E88-9BDE-5157-9FE8-0049617B62A6}",
+            "name": "Otto600",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.OTTO600_Body",
+                    "RootNode.OTTO600_Wheel_Front_L",
+                    "RootNode.OTTO600_Wheel_Front_R",
+                    "RootNode.OTTO600_Wheel_Middle_L",
+                    "RootNode.OTTO600_Wheel_Middle_R",
+                    "RootNode.OTTO600_Wheel_Rear_L",
+                    "RootNode.OTTO600_Wheel_Rear_R"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Entire object"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Otto600",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.OTTO600_Body",
+                    "RootNode.OTTO600_Wheel_Front_L",
+                    "RootNode.OTTO600_Wheel_Front_R",
+                    "RootNode.OTTO600_Wheel_Middle_L",
+                    "RootNode.OTTO600_Wheel_Middle_R",
+                    "RootNode.OTTO600_Wheel_Rear_L",
+                    "RootNode.OTTO600_Wheel_Rear_R"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{B0FEF67B-1529-596E-B65C-7101E85E8A3B}"
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Otto600_Wheel_FR",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.OTTO600_Wheel_Front_R"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.OTTO600_Body",
+                    "RootNode.OTTO600_Wheel_Front_L",
+                    "RootNode.OTTO600_Wheel_Middle_L",
+                    "RootNode.OTTO600_Wheel_Middle_R",
+                    "RootNode.OTTO600_Wheel_Rear_L",
+                    "RootNode.OTTO600_Wheel_Rear_R"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{D29CEDA2-D641-45F1-AFB5-4F06145522EB}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Otto600_Wheel_FL",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.OTTO600_Wheel_Front_L"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.OTTO600_Body",
+                    "RootNode.OTTO600_Wheel_Front_R",
+                    "RootNode.OTTO600_Wheel_Middle_L",
+                    "RootNode.OTTO600_Wheel_Middle_R",
+                    "RootNode.OTTO600_Wheel_Rear_L",
+                    "RootNode.OTTO600_Wheel_Rear_R"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{9DEAD0ED-5D55-483C-941C-39C20DC1D4A5}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Otto600_Wheel_MR",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.OTTO600_Wheel_Middle_R"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.OTTO600_Body",
+                    "RootNode.OTTO600_Wheel_Front_L",
+                    "RootNode.OTTO600_Wheel_Front_R",
+                    "RootNode.OTTO600_Wheel_Middle_L",
+                    "RootNode.OTTO600_Wheel_Rear_L",
+                    "RootNode.OTTO600_Wheel_Rear_R"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{66BF33A0-437D-4567-A23F-30D1FA3EB846}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Otto600_Wheel_ML",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.OTTO600_Wheel_Middle_L"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.OTTO600_Body",
+                    "RootNode.OTTO600_Wheel_Front_L",
+                    "RootNode.OTTO600_Wheel_Front_R",
+                    "RootNode.OTTO600_Wheel_Middle_R",
+                    "RootNode.OTTO600_Wheel_Rear_L",
+                    "RootNode.OTTO600_Wheel_Rear_R"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{5326E291-2085-4EA9-8F97-515098B58494}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Otto600_Wheel_RR",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.OTTO600_Wheel_Rear_R"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.OTTO600_Body",
+                    "RootNode.OTTO600_Wheel_Front_L",
+                    "RootNode.OTTO600_Wheel_Front_R",
+                    "RootNode.OTTO600_Wheel_Middle_L",
+                    "RootNode.OTTO600_Wheel_Middle_R",
+                    "RootNode.OTTO600_Wheel_Rear_L"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{61C0EC53-3B8E-4C3F-AF49-A9E69CA1DBA4}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Otto600_Wheel_RL",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.OTTO600_Wheel_Rear_L"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.OTTO600_Body",
+                    "RootNode.OTTO600_Wheel_Front_L",
+                    "RootNode.OTTO600_Wheel_Front_R",
+                    "RootNode.OTTO600_Wheel_Middle_L",
+                    "RootNode.OTTO600_Wheel_Middle_R",
+                    "RootNode.OTTO600_Wheel_Rear_R"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{F5003FE9-93FD-4151-B91C-57E21C530651}"
+        }
+    ]
+}

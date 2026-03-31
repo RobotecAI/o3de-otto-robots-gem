@@ -2457,64 +2457,6 @@
                 }
             }
         },
-        "Entity_[363552211467]": {
-            "Id": "Entity_[363552211467]",
-            "Name": "wheel_CR_visual",
-            "Components": {
-                "AZ::Render::EditorMeshComponent": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 1363836619197330331,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{695F0A5B-BA43-5816-8925-BE65AEB1ED8D}",
-                                    "subId": 273598516
-                                },
-                                "assetHint": "otto600/models/default_otto600_96649e6a_50dd_567e_9598_89735f9b7c54_.fbx.azmodel"
-                            }
-                        }
-                    }
-                },
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 1587762751232459859
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 16351520683986949126
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 11366228535164422034
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 1695856764699518017
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 17357466147559757244
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 4773968963871482935
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 15020752988806943505
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 14478123114331404746
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 5603363823810660091,
-                    "Parent Entity": "Entity_[367847178763]"
-                }
-            }
-        },
         "Entity_[367847178763]": {
             "Id": "Entity_[367847178763]",
             "Name": "wheel_CR",
@@ -2567,10 +2509,7 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 6755952654392370319,
-                    "Child Entity Order": [
-                        "Entity_[363552211467]"
-                    ]
+                    "Id": 6755952654392370319
                 },
                 "EditorHingeJointComponent": {
                     "$type": "EditorHingeJointComponent",
@@ -2644,6 +2583,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 13162827588082188291,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_CR",
                         "Joint Name": "wheel_CR_joint"
@@ -2723,10 +2663,7 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 18328211258863359842,
-                    "Child Entity Order": [
-                        "Entity_[483811295755]"
-                    ]
+                    "Id": 18328211258863359842
                 },
                 "EditorHingeJointComponent": {
                     "$type": "EditorHingeJointComponent",
@@ -2800,6 +2737,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 972327564013229137,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_RL",
                         "Joint Name": "wheel_RL_joint"
@@ -3101,6 +3039,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 1111898989262546348,
                     "ROS2FrameConfiguration": {
                         "Namespace Configuration": {
                             "Namespace": "base_link"
@@ -3192,64 +3131,6 @@
                 }
             }
         },
-        "Entity_[385027047947]": {
-            "Id": "Entity_[385027047947]",
-            "Name": "wheel_FL_visual",
-            "Components": {
-                "AZ::Render::EditorMeshComponent": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 18168191653693216421,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{695F0A5B-BA43-5816-8925-BE65AEB1ED8D}",
-                                    "subId": 273598516
-                                },
-                                "assetHint": "otto600/models/default_otto600_96649e6a_50dd_567e_9598_89735f9b7c54_.fbx.azmodel"
-                            }
-                        }
-                    }
-                },
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 6914087112922781261
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 13082038133714906841
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 2180063166161285729
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 2306027353110558406
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 9563663526936912726
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 11389763316027501156
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 13697060624088539724
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 794124795341054296
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 6159509585614812483,
-                    "Parent Entity": "Entity_[479516328459]"
-                }
-            }
-        },
         "Entity_[389322015243]": {
             "Id": "Entity_[389322015243]",
             "Name": "wheel_FR",
@@ -3302,10 +3183,7 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 7313339501984223964,
-                    "Child Entity Order": [
-                        "Entity_[436566655499]"
-                    ]
+                    "Id": 7313339501984223964
                 },
                 "EditorHingeJointComponent": {
                     "$type": "EditorHingeJointComponent",
@@ -3379,6 +3257,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 17042011802026030703,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_FR",
                         "Joint Name": "wheel_FR_joint"
@@ -3801,122 +3680,6 @@
                 }
             }
         },
-        "Entity_[427976720907]": {
-            "Id": "Entity_[427976720907]",
-            "Name": "wheel_RR_visual",
-            "Components": {
-                "AZ::Render::EditorMeshComponent": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 6609143828848964740,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{695F0A5B-BA43-5816-8925-BE65AEB1ED8D}",
-                                    "subId": 273598516
-                                },
-                                "assetHint": "otto600/models/default_otto600_96649e6a_50dd_567e_9598_89735f9b7c54_.fbx.azmodel"
-                            }
-                        }
-                    }
-                },
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 6143720275917976092
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 11398688506360384017
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 11669224845510510561
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 10447083639893919230
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 15039450012183396324
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 16550267047845216940
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 14918357322401265732
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 4969199693949436889
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 12493637505676290818,
-                    "Parent Entity": "Entity_[462336459275]"
-                }
-            }
-        },
-        "Entity_[436566655499]": {
-            "Id": "Entity_[436566655499]",
-            "Name": "wheel_FR_visual",
-            "Components": {
-                "AZ::Render::EditorMeshComponent": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 271165880429764171,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{695F0A5B-BA43-5816-8925-BE65AEB1ED8D}",
-                                    "subId": 273598516
-                                },
-                                "assetHint": "otto600/models/default_otto600_96649e6a_50dd_567e_9598_89735f9b7c54_.fbx.azmodel"
-                            }
-                        }
-                    }
-                },
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 14715401575508024446
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 7536601611050045502
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 16446571511396872842
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 2756348501123857913
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 9405859130839611602
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 3258436466637934078
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 12247639566390712565
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 2305646717497474119
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 9733178881028597695,
-                    "Parent Entity": "Entity_[389322015243]"
-                }
-            }
-        },
         "Entity_[440861622795]": {
             "Id": "Entity_[440861622795]",
             "Name": "platform_upper_visual",
@@ -4062,10 +3825,7 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 10376581053652024434,
-                    "Child Entity Order": [
-                        "Entity_[458041491979]"
-                    ]
+                    "Id": 10376581053652024434
                 },
                 "EditorHingeJointComponent": {
                     "$type": "EditorHingeJointComponent",
@@ -4139,6 +3899,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 14121870671264368630,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_CL",
                         "Joint Name": "wheel_CL_joint"
@@ -4163,64 +3924,6 @@
                         "$type": "WheelControllerComponent",
                         "SteeringEntity": ""
                     }
-                }
-            }
-        },
-        "Entity_[458041491979]": {
-            "Id": "Entity_[458041491979]",
-            "Name": "wheel_CL_visual",
-            "Components": {
-                "AZ::Render::EditorMeshComponent": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 6228032295567748681,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{695F0A5B-BA43-5816-8925-BE65AEB1ED8D}",
-                                    "subId": 273598516
-                                },
-                                "assetHint": "otto600/models/default_otto600_96649e6a_50dd_567e_9598_89735f9b7c54_.fbx.azmodel"
-                            }
-                        }
-                    }
-                },
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 2632127307495260356
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 12119615116932598684
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 17645099039901281074
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 15893892650871296107
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 8339769433857007864
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 16838999548608809924
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 11885803208647415519
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 692605731715928774
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 17205227778608021128,
-                    "Parent Entity": "Entity_[449451557387]"
                 }
             }
         },
@@ -4276,10 +3979,7 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 7338774188454245145,
-                    "Child Entity Order": [
-                        "Entity_[427976720907]"
-                    ]
+                    "Id": 7338774188454245145
                 },
                 "EditorHingeJointComponent": {
                     "$type": "EditorHingeJointComponent",
@@ -4353,6 +4053,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 9913287202157467830,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_RR",
                         "Joint Name": "wheel_RR_joint"
@@ -4575,10 +4276,7 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 7947729366780366096,
-                    "Child Entity Order": [
-                        "Entity_[385027047947]"
-                    ]
+                    "Id": 7947729366780366096
                 },
                 "EditorHingeJointComponent": {
                     "$type": "EditorHingeJointComponent",
@@ -4652,6 +4350,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 11662575891260228893,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_FL",
                         "Joint Name": "wheel_FL_joint"
@@ -4668,64 +4367,6 @@
                             0.0877000018954277
                         ]
                     }
-                }
-            }
-        },
-        "Entity_[483811295755]": {
-            "Id": "Entity_[483811295755]",
-            "Name": "wheel_RL_visual",
-            "Components": {
-                "AZ::Render::EditorMeshComponent": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 8539975365203105371,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{695F0A5B-BA43-5816-8925-BE65AEB1ED8D}",
-                                    "subId": 273598516
-                                },
-                                "assetHint": "otto600/models/default_otto600_96649e6a_50dd_567e_9598_89735f9b7c54_.fbx.azmodel"
-                            }
-                        }
-                    }
-                },
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 13865928520859190895
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 14764826867037504169
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 15241147751359324747
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 3706588168309025107
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 10387306821524546071
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 16633187626428888758
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 11921946653805605940
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 20316781970265691
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 15691846221364367981,
-                    "Parent Entity": "Entity_[372142146059]"
                 }
             }
         },
