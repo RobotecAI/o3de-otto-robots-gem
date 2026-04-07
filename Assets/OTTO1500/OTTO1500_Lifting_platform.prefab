@@ -190,14 +190,13 @@
                             "materials": [
                                 {
                                     "Key": {
-                                        "materialSlotStableId": 2534313805
+                                        "materialSlotStableId": 1946394567
                                     },
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{328613CB-F807-5275-A03D-C5141E9F7C57}"
-                                            },
-                                            "assetHint": "otto1500/platform/otto1500_platfrom_b/platformb_platfrom_b.azmaterial"
+                                                "guid": "{ECDF553D-D923-5103-9BE9-08C43056AAFA}"
+                                            }
                                         }
                                     }
                                 },
@@ -1260,14 +1259,13 @@
                             "materials": [
                                 {
                                     "Key": {
-                                        "materialSlotStableId": 2534313805
+                                        "materialSlotStableId": 1946394567
                                     },
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{328613CB-F807-5275-A03D-C5141E9F7C57}"
-                                            },
-                                            "assetHint": "otto1500/platform/otto1500_platfrom_b/platformb_platfrom_b.azmaterial"
+                                                "guid": "{ECDF553D-D923-5103-9BE9-08C43056AAFA}"
+                                            }
                                         }
                                     }
                                 },
@@ -2318,14 +2316,13 @@
                             "materials": [
                                 {
                                     "Key": {
-                                        "materialSlotStableId": 2534313805
+                                        "materialSlotStableId": 1946394567
                                     },
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{328613CB-F807-5275-A03D-C5141E9F7C57}"
-                                            },
-                                            "assetHint": "otto1500/platform/otto1500_platfrom_b/platformb_platfrom_b.azmaterial"
+                                                "guid": "{ECDF553D-D923-5103-9BE9-08C43056AAFA}"
+                                            }
                                         }
                                     }
                                 },

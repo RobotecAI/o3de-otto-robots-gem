@@ -107,19 +107,6 @@
                                             "assetHint": "otto1500/platform/otto1500_platform_a/otto1500_platform_a.azmaterial"
                                         }
                                     }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 2084814471
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{04E9D43B-E513-5FF6-A57B-BDB421578BA9}"
-                                            },
-                                            "assetHint": "otto1500/platform/otto1500_platform_a/otto1500_platform_a_otto1500_platform_a.azmaterial"
-                                        }
-                                    }
                                 }
                             ]
                         }
@@ -2245,19 +2232,6 @@
                                                 "guid": "{D1437214-2ABC-5991-A249-480F6DE087E1}"
                                             },
                                             "assetHint": "otto1500/platform/otto1500_platform_a/otto1500_platform_a.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 2084814471
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{04E9D43B-E513-5FF6-A57B-BDB421578BA9}"
-                                            },
-                                            "assetHint": "otto1500/platform/otto1500_platform_a/otto1500_platform_a_otto1500_platform_a.azmaterial"
                                         }
                                     }
                                 }
