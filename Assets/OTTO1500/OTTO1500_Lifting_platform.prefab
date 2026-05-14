@@ -196,7 +196,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{ECDF553D-D923-5103-9BE9-08C43056AAFA}"
-                                            }
+                                            },
+                                            "assetHint": "otto1500/platform/otto1500_platfrom_b/otto1500_platform_b.azmaterial"
                                         }
                                     }
                                 },
@@ -1049,7 +1050,26 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 846486765456039724,
                     "ROS2FrameConfiguration": {
+                        "Namespace Configuration": {
+                            "Namespace": "base_link"
+                        },
                         "Frame Name": "base_link"
+                    }
+                },
+                "ROS2OdometrySensorComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 7264798095579696440,
+                    "m_template": {
+                        "$type": "ROS2OdometrySensorComponent",
+                        "SensorConfiguration": {
+                            "Frequency (HZ)": 100.0,
+                            "Publishers": {
+                                "nav_msgs::msg::Odometry": {
+                                    "Type": "nav_msgs::msg::Odometry",
+                                    "Topic": "odom"
+                                }
+                            }
+                        }
                     }
                 },
                 "ROS2RobotControlComponent": {
@@ -1265,7 +1285,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{ECDF553D-D923-5103-9BE9-08C43056AAFA}"
-                                            }
+                                            },
+                                            "assetHint": "otto1500/platform/otto1500_platfrom_b/otto1500_platform_b.azmaterial"
                                         }
                                     }
                                 },
@@ -2322,7 +2343,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{ECDF553D-D923-5103-9BE9-08C43056AAFA}"
-                                            }
+                                            },
+                                            "assetHint": "otto1500/platform/otto1500_platfrom_b/otto1500_platform_b.azmaterial"
                                         }
                                     }
                                 },
@@ -2720,7 +2742,10 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
-                    "Id": 9805679993737794881
+                    "Id": 9805679993737794881,
+                    "ROS2FrameConfiguration": {
+                        "Frame Name": "sensor_frame_rear"
+                    }
                 },
                 "ROS2Lidar2DSensorComponent": {
                     "$type": "GenericComponentWrapper",
@@ -2731,7 +2756,7 @@
                             "Publishers": {
                                 "sensor_msgs::msg::LaserScan": {
                                     "Type": "sensor_msgs::msg::LaserScan",
-                                    "Topic": "ls"
+                                    "Topic": "scan_rear"
                                 }
                             }
                         },
@@ -5099,7 +5124,10 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
-                    "Id": 9805679993737794881
+                    "Id": 9805679993737794881,
+                    "ROS2FrameConfiguration": {
+                        "Frame Name": "sensor_frame_front"
+                    }
                 },
                 "ROS2Lidar2DSensorComponent": {
                     "$type": "GenericComponentWrapper",
@@ -5110,7 +5138,7 @@
                             "Publishers": {
                                 "sensor_msgs::msg::LaserScan": {
                                     "Type": "sensor_msgs::msg::LaserScan",
-                                    "Topic": "ls"
+                                    "Topic": "scan_front"
                                 }
                             }
                         },

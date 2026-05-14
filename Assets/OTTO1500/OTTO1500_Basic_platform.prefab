@@ -168,7 +168,11 @@
                     "Id": 15925498669316666254
                 },
                 "ROS2FrameEditorComponent": {
-                    "$type": "ROS2FrameEditorComponent"
+                    "$type": "ROS2FrameEditorComponent",
+                    "Id": 14395560590681446260,
+                    "ROS2FrameConfiguration": {
+                        "Frame Name": "sensor_frame_front"
+                    }
                 },
                 "ROS2Lidar2DSensorComponent": {
                     "$type": "GenericComponentWrapper",
@@ -179,7 +183,7 @@
                             "Publishers": {
                                 "sensor_msgs::msg::LaserScan": {
                                     "Type": "sensor_msgs::msg::LaserScan",
-                                    "Topic": "ls"
+                                    "Topic": "scan_front"
                                 }
                             }
                         },
@@ -250,7 +254,11 @@
                     "Id": 15925498669316666254
                 },
                 "ROS2FrameEditorComponent": {
-                    "$type": "ROS2FrameEditorComponent"
+                    "$type": "ROS2FrameEditorComponent",
+                    "Id": 14931014348454295155,
+                    "ROS2FrameConfiguration": {
+                        "Frame Name": "sensor_frame_rear"
+                    }
                 },
                 "ROS2Lidar2DSensorComponent": {
                     "$type": "GenericComponentWrapper",
@@ -261,7 +269,7 @@
                             "Publishers": {
                                 "sensor_msgs::msg::LaserScan": {
                                     "Type": "sensor_msgs::msg::LaserScan",
-                                    "Topic": "ls"
+                                    "Topic": "scan_rear"
                                 }
                             }
                         },
@@ -2103,11 +2111,27 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 1407404889281694566,
                     "ROS2FrameConfiguration": {
                         "Namespace Configuration": {
                             "Namespace": "base_link"
                         },
                         "Frame Name": "base_link"
+                    }
+                },
+                "ROS2OdometrySensorComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 5362437566902083660,
+                    "m_template": {
+                        "$type": "ROS2OdometrySensorComponent",
+                        "SensorConfiguration": {
+                            "Publishers": {
+                                "nav_msgs::msg::Odometry": {
+                                    "Type": "nav_msgs::msg::Odometry",
+                                    "Topic": "odom"
+                                }
+                            }
+                        }
                     }
                 },
                 "ROS2RobotControlComponent": {
