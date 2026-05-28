@@ -2,11 +2,11 @@
     "values": [
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{E605466A-F84F-5079-B058-77B50BAAC256}",
-            "name": "StandLow",
+            "id": "{CA3FB007-735F-5658-82A5-0D52DB9C025D}",
+            "name": "Otto1500_StandHigh",
             "NodeSelectionList": {
                 "selectedNodes": [
-                    "RootNode.StandLow"
+                    "RootNode.Otto1500_StandHigh"
                 ],
                 "unselectedNodes": [
                     {},
@@ -16,19 +16,19 @@
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "Stand"
+                        "Name": "Otto1500_Stand"
                     }
                 ]
             }
         },
         {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "StandLow",
+            "name": "Otto1500_StandHigh",
             "nodeSelectionList": {
                 "selectedNodes": [
                     {},
                     "RootNode",
-                    "RootNode.StandLow"
+                    "RootNode.Otto1500_StandHigh"
                 ]
             },
             "rules": {
@@ -38,14 +38,17 @@
                     }
                 ]
             },
-            "id": "{F2657F9E-CCAD-50FA-961A-9E422537B610}"
+            "id": "{6C67F859-E7F4-54AB-89A2-AED8E6E6A121}"
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
         },
         {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "default_StandLow_00FC37C9_3651_5B92_9045_489134583CF7_",
+            "name": "default_Otto1500_StandHigh_065B2435_BA2A_51E2_9975_F5FE2D180EE3_",
             "nodeSelectionList": {
                 "selectedNodes": [
-                    "RootNode.StandLow"
+                    "RootNode.Otto1500_StandHigh"
                 ]
             },
             "rules": {
@@ -65,12 +68,12 @@
                     }
                 ]
             },
-            "id": "{00FC37C9-3651-5B92-9045-489134583CF7}"
+            "id": "{065B2435-BA2A-51E2-9975-F5FE2D180EE3}"
         },
         {
             "$type": "PrefabGroup",
-            "name": "Prefabs/OTTO1500_Stand/StandLow_fbx.procprefab",
-            "id": "{39AED686-C528-53CD-9F1D-E30F1C24C7E3}"
+            "name": "OTTO1500/Models/Otto1500_StandHigh_fbx.procprefab",
+            "id": "{FB4BBF10-3C0D-5184-814C-B4B03CA8286B}"
         }
     ]
 }

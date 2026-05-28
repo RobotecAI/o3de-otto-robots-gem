@@ -15,7 +15,7 @@
 #include <AtomLyIntegration/CommonFeatures/CoreLights/AreaLightBus.h>
 #include <ROS2/Frame/ROS2FrameComponent.h>
 #include <ROS2/ROS2Bus.h>
-#include <ROS2/Utilities/ROS2Names.h>
+
 
 namespace OTTORobots
 {
@@ -85,12 +85,16 @@ namespace OTTORobots
     {
         auto* ros2Interface = ROS2::ROS2Interface::Get();
         AZ_Assert(ros2Interface, "ROS2 interface not available");
-        auto* ros2Frame = ROS2::Utils::GetGameOrEditorComponent<ROS2::ROS2FrameComponent>(GetEntity());
-        AZ_Assert(ros2Frame, "Missing ROS2FrameComponent");
-        AZStd::string topic = ROS2::ROS2Names::GetNamespacedName(ros2Frame->GetNamespace(), m_config.m_topicConfiguration.m_topic);
+
+        AZStd::string namespaceFromFrame;
+        ROS2::ROS2FrameComponentBus::EventResult(namespaceFromFrame, m_entity->GetId(), &ROS2::ROS2FrameComponentRequests::GetNamespace);
+
+        AZStd::string namespacedTopicName;
+        ROS2::ROS2NamesRequestBus::BroadcastResult(
+            namespacedTopicName, &ROS2::ROS2NamesRequestBus::Events::GetNamespacedName, namespaceFromFrame, m_config.m_topicConfiguration.m_topic);
 
         m_colorSubscriber = ros2Interface->GetNode()->create_subscription<std_msgs::msg::String>(
-            topic.c_str(),
+            namespacedTopicName.c_str(),
             m_config.m_topicConfiguration.GetQoS(),
             [&](std_msgs::msg::String msg)
             {

@@ -8,18 +8,18 @@
             0.800000011920929,
             1.0
         ],
-        "baseColor.textureMap": "Textures/Stand-BaseColor.png",
+        "baseColor.textureMap": "../Models/Materials/Textures/Otto600_Stand_BaseColor.png",
         "emissive.color": [
             0.0,
             0.0,
             0.0,
             1.0
         ],
-        "metallic.textureMap": "Textures/Stand-Metallic.png",
-        "normal.textureMap": "Textures/Stand-Normal.png",
+        "metallic.textureMap": "../Models/Materials/Textures/Otto600_Stand_Metallic.png",
+        "normal.textureMap": "../Models/Materials/Textures/Otto600_Stand_Normal.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.5,
-        "roughness.textureMap": "Textures/Stand-Roughness.png",
-        "specularF0.textureMap": "Textures/Stand-Specular.png"
+        "roughness.textureMap": "../Models/Materials/Textures/Otto600_Stand_Roughness.png",
+        "specularF0.textureMap": "../Models/Materials/Textures/Otto600_Stand_Specular.png"
     }
 }

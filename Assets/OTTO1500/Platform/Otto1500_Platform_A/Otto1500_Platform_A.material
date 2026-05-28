@@ -8,20 +8,20 @@
             0.800000011920929,
             1.0
         ],
-        "baseColor.textureMap": "Textures/Otto1500_Platform_A_BaseColor.png",
+        "baseColor.textureMap": "../../Models/Materials/Textures/Otto1500_PlatformA_BaseColor.png",
         "emissive.color": [
             0.0,
             0.0,
             0.0,
             1.0
         ],
-        "metallic.textureMap": "Textures/Otto1500_Platform_A_Metallic.png",
-        "normal.textureMap": "Textures/Otto1500_Platform_A_Normal.png",
-        "occlusion.diffuseTextureMap": "Textures/Otto1500_Platform_A_AO.png",
+        "metallic.textureMap": "../../Models/Materials/Textures/Otto1500_PlatformA_Metallic.png",
+        "normal.textureMap": "../../Models/Materials/Textures/Otto1500_PlatformA_Normal.png",
+        "occlusion.diffuseTextureMap": "../../Models/Materials/Textures/Otto1500_PlatformA_AO.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.5,
         "roughness.lowerBound": 0.029999999329447746,
-        "roughness.textureMap": "Textures/Otto1500_Platform_A_Roughness.png",
+        "roughness.textureMap": "../../Models/Materials/Textures/Otto1500_PlatformA_Roughness.png",
         "roughness.upperBound": 0.699999988079071
     }
 }

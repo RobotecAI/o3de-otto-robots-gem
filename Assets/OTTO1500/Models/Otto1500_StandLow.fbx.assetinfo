@@ -2,39 +2,33 @@
     "values": [
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{1CFFA16A-7088-5EB3-A02A-C448EBB489A1}",
-            "name": "Otto600Stand",
+            "id": "{2F694DC3-91D9-555A-B3BC-6D062540BC24}",
+            "name": "Otto1500_StandLow",
             "NodeSelectionList": {
                 "selectedNodes": [
-                    "RootNode.Otto600Stand",
-                    "RootNode.Otto600Stand.transform",
-                    "RootNode.Otto600Stand.custom_properties",
-                    "RootNode.Otto600Stand.UVMap",
-                    "RootNode.Otto600Stand.Stand"
+                    "RootNode.Otto1500_StandLow"
                 ],
                 "unselectedNodes": [
+                    {},
                     "RootNode"
                 ]
             },
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "Stand"
+                        "Name": "Otto1500_Stand"
                     }
                 ]
             }
         },
         {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "Otto600Stand",
+            "name": "Otto1500_StandLow",
             "nodeSelectionList": {
                 "selectedNodes": [
+                    {},
                     "RootNode",
-                    "RootNode.Otto600Stand",
-                    "RootNode.Otto600Stand.transform",
-                    "RootNode.Otto600Stand.custom_properties",
-                    "RootNode.Otto600Stand.UVMap",
-                    "RootNode.Otto600Stand.Stand"
+                    "RootNode.Otto1500_StandLow"
                 ]
             },
             "rules": {
@@ -44,14 +38,17 @@
                     }
                 ]
             },
-            "id": "{1A149E5F-F3BF-5635-B6BE-C96CB811BCA1}"
+            "id": "{66B56449-056B-519F-9F71-197FA0376BB6}"
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
         },
         {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "default_Otto600Stand_74A89266_CB4A_5494_8684_5EC63EA4E8F1_",
+            "name": "default_Otto1500_StandLow_272CF36D_6F89_5FE3_BA89_75397F69A570_",
             "nodeSelectionList": {
                 "selectedNodes": [
-                    "RootNode.Otto600Stand"
+                    "RootNode.Otto1500_StandLow"
                 ]
             },
             "rules": {
@@ -71,12 +68,12 @@
                     }
                 ]
             },
-            "id": "{74A89266-CB4A-5494-8684-5EC63EA4E8F1}"
+            "id": "{272CF36D-6F89-5FE3-BA89-75397F69A570}"
         },
         {
             "$type": "PrefabGroup",
-            "name": "Prefabs/Otto600-Stand/Otto600Stand_fbx.procprefab",
-            "id": "{F3D6975D-6E52-522A-826D-20474F225527}"
+            "name": "OTTO1500/Models/Otto1500_StandLow_fbx.procprefab",
+            "id": "{FF64198D-443F-5AC5-BC7F-79B3976E3D37}"
         }
     ]
 }

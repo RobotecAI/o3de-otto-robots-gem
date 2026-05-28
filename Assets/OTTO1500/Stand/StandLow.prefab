@@ -50,25 +50,104 @@
         }
     },
     "Entities": {
-        "Entity_[768075193863]": {
-            "Id": "Entity_[768075193863]",
-            "Name": "StandLow",
+        "Entity_[1635414398646]": {
+            "Id": "Entity_[1635414398646]",
+            "Name": "Visual",
             "Components": {
                 "AZ::Render::EditorMeshComponent": {
                     "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 5365669629293523577,
+                    "Id": 11791467752701403155,
                     "Controller": {
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{19FD7979-A3F0-546A-9B2B-9A5499D95C19}",
-                                    "subId": 285042966
+                                    "guid": "{B9F5422D-F173-5C87-BDC8-1482916A158B}",
+                                    "subId": 276720298
                                 },
-                                "assetHint": "otto1500/stand/standlow.fbx.azmodel"
+                                "assetHint": "otto1500/models/otto1500_standlow.fbx.azmodel"
                             }
                         }
                     }
                 },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2705096153679313100
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17151122179682386178
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2956557544671256879
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8683483869014532767
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9276106832489882187
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3864824623611334086,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1662997514
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B9F5422D-F173-5C87-BDC8-1482916A158B}",
+                                                "subId": 1662997514
+                                            },
+                                            "assetHint": "otto1500/models/otto1500_standlow_otto1500_stand_17743010527121986570.fbx.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9845940131393657390
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5581950711809971486
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2782387917460634776
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11571561408216430420,
+                    "Parent Entity": "Entity_[768075193863]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            -0.5958949327468872,
+                            0.0
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            90.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[768075193863]": {
+            "Id": "Entity_[768075193863]",
+            "Name": "StandLow",
+            "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 406484986527599026
@@ -79,7 +158,10 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 14673325535932527940
+                    "Id": 14673325535932527940,
+                    "Child Entity Order": [
+                        "Entity_[1635414398646]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -102,37 +184,25 @@
                     "$type": "EditorLockComponent",
                     "Id": 10745985384618216163
                 },
-                "EditorMaterialComponent": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 2737280424826820059,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 198258592
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{0E2DCA10-61E8-597F-9091-E4FCAAB0632A}"
-                                            },
-                                            "assetHint": "otto1500/stand/standhigh_stand.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
                 "EditorMeshColliderComponent": {
                     "$type": "EditorMeshColliderComponent",
                     "Id": 8432264901573671169,
                     "ColliderConfiguration": {
+                        "Position": [
+                            0.0,
+                            -0.5958948731422424,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.7071067690849304,
+                            0.7071067094802856
+                        ],
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "Stand"
+                                    "Name": "Otto1500_Stand"
                                 }
                             ]
                         }
@@ -141,19 +211,19 @@
                         "PhysicsAsset": {
                             "Asset": {
                                 "assetId": {
-                                    "guid": "{19FD7979-A3F0-546A-9B2B-9A5499D95C19}",
-                                    "subId": 3875662879
+                                    "guid": "{B9F5422D-F173-5C87-BDC8-1482916A158B}",
+                                    "subId": 2643920107
                                 },
-                                "assetHint": "otto1500/stand/standlow.fbx.pxmesh"
+                                "assetHint": "otto1500/models/otto1500_standlow.fbx.pxmesh"
                             },
                             "Configuration": {
                                 "PhysicsAsset": {
                                     "assetId": {
-                                        "guid": "{19FD7979-A3F0-546A-9B2B-9A5499D95C19}",
-                                        "subId": 3875662879
+                                        "guid": "{B9F5422D-F173-5C87-BDC8-1482916A158B}",
+                                        "subId": 2643920107
                                     },
                                     "loadBehavior": "QueueLoad",
-                                    "assetHint": "otto1500/stand/standlow.fbx.pxmesh"
+                                    "assetHint": "otto1500/models/otto1500_standlow.fbx.pxmesh"
                                 }
                             }
                         }
