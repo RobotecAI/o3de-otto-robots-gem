@@ -18,7 +18,7 @@
         "Linux"
     ],
     "icon_path": "preview.png",
-    "requirements": "This gem requires ROS2, and PhysX gems.",
+    "requirements": "This gem requires ROS2, ROS2Controllers, and PhysX5 gems.",
     "dependencies": [
         "ROS2>=4.1.0",
         "ROS2Controllers>=1.0.1",
