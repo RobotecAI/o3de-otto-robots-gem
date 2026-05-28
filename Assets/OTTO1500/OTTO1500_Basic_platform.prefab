@@ -510,6 +510,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 18394442443977061473,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_FL",
                         "Joint Name": "wheel_FL_joint"
@@ -643,6 +644,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 6143413863335963465,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_FR",
                         "Joint Name": "wheel_FR_joint"
@@ -1077,6 +1079,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 530678386239137035,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_CL",
                         "Joint Name": "wheel_CL_joint"
@@ -1311,6 +1314,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 9163406521615730848,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_RL",
                         "Joint Name": "wheel_RL_joint"
@@ -1444,6 +1448,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 3578407789853348085,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_RR",
                         "Joint Name": "wheel_RR_joint"
@@ -1852,6 +1857,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 12589057346966670610,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_CR",
                         "Joint Name": "wheel_CR_joint"
