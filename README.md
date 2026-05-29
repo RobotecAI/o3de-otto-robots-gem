@@ -88,6 +88,15 @@ The set of pre-defined colors includes _WHITE_,  _GREEN_,  _YELLOW_, _MAGENTA_, 
 `OTTO600.prefab` models with different light configurations: _top row_: default, WHITE, GREEN, YELLOW, MAGENTA, PURPLE; _bottom row_: RED, BLUE, CYAN, ORANGE, PINK, default
 
 ## Release notes
+
+### 3.0.0 for O3DE 2510.x and O3DE 2605.x
+Changes compared to `2.0.0`
+- Modified to work with `ROS2 Gem >= 4.0.0` (set the requirements to ` >= 4.1.0`)
+- Updated orientation of the models to match ROS 2 standards (x-forward)
+- Removed duplicated platform visual in `OTTO1500` prefabs
+- Fixed ROS 2 Frame names and lidar topics in `OTTO1500` prefabs
+- Changed the folder structure to keep textures next to models
+
 ### 2.0.0 for O3DE 2409.x
 Changes compared to `1.0.0`
 - Modified to work with `ROS2 Gem >= 3.1.0`
