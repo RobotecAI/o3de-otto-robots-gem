@@ -50,6 +50,87 @@
         }
     },
     "Entities": {
+        "Entity_[1623676683678]": {
+            "Id": "Entity_[1623676683678]",
+            "Name": "basic_platform_visual",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3259034752661926442,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{17837BE0-E058-5AA4-9EB3-A47D1D63F1CD}",
+                                    "subId": 269519631
+                                },
+                                "assetHint": "otto1500/models/otto1500_platforma.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14556346737118618979
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7736610592776393321
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15053338997561023912
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2012677111403991911
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4203834161933005483
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8228673162048415399,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1900983038
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D1437214-2ABC-5991-A249-480F6DE087E1}"
+                                            },
+                                            "assetHint": "otto1500/platform/otto1500_platform_a/otto1500_platform_a.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5005434318419763258
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4584594338792920262
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9581402835971478273
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11427576186611773679,
+                    "Parent Entity": "Entity_[2472230285851]"
+                }
+            }
+        },
         "Entity_[16359154575719]": {
             "Id": "Entity_[16359154575719]",
             "Name": "lidar_front",
@@ -87,7 +168,11 @@
                     "Id": 15925498669316666254
                 },
                 "ROS2FrameEditorComponent": {
-                    "$type": "ROS2FrameEditorComponent"
+                    "$type": "ROS2FrameEditorComponent",
+                    "Id": 14395560590681446260,
+                    "ROS2FrameConfiguration": {
+                        "Frame Name": "sensor_frame_front"
+                    }
                 },
                 "ROS2Lidar2DSensorComponent": {
                     "$type": "GenericComponentWrapper",
@@ -98,7 +183,7 @@
                             "Publishers": {
                                 "sensor_msgs::msg::LaserScan": {
                                     "Type": "sensor_msgs::msg::LaserScan",
-                                    "Topic": "ls"
+                                    "Topic": "scan_front"
                                 }
                             }
                         },
@@ -169,7 +254,11 @@
                     "Id": 15925498669316666254
                 },
                 "ROS2FrameEditorComponent": {
-                    "$type": "ROS2FrameEditorComponent"
+                    "$type": "ROS2FrameEditorComponent",
+                    "Id": 14931014348454295155,
+                    "ROS2FrameConfiguration": {
+                        "Frame Name": "sensor_frame_rear"
+                    }
                 },
                 "ROS2Lidar2DSensorComponent": {
                     "$type": "GenericComponentWrapper",
@@ -180,7 +269,7 @@
                             "Publishers": {
                                 "sensor_msgs::msg::LaserScan": {
                                     "Type": "sensor_msgs::msg::LaserScan",
-                                    "Topic": "ls"
+                                    "Topic": "scan_rear"
                                 }
                             }
                         },
@@ -421,6 +510,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 18394442443977061473,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_FL",
                         "Joint Name": "wheel_FL_joint"
@@ -554,6 +644,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 6143413863335963465,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_FR",
                         "Joint Name": "wheel_FR_joint"
@@ -809,7 +900,7 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 13717270301119892066,
                     "Child Entity Order": [
-                        "Entity_[2528064860699]"
+                        "Entity_[1623676683678]"
                     ]
                 },
                 "EditorFixedJointComponent": {
@@ -857,6 +948,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 3756522344248000981,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "basic_platform",
                         "Joint Name": "platform_base_joint"
@@ -987,10 +1079,10 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 530678386239137035,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_CL",
-                        "Joint Name": "wheel_CL_joint",
-                        "Effective namespace": "base_link"
+                        "Joint Name": "wheel_CL_joint"
                     }
                 },
                 "TransformComponent": {
@@ -1222,6 +1314,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 9163406521615730848,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_RL",
                         "Joint Name": "wheel_RL_joint"
@@ -1355,6 +1448,7 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 3578407789853348085,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_RR",
                         "Joint Name": "wheel_RR_joint"
@@ -1478,10 +1572,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{6A947F25-4E55-5509-990B-AC20E836AB4C}",
+                                    "guid": "{BA392652-9DEE-578F-ACAF-1EC2D166EF99}",
                                     "subId": 280463597
                                 },
-                                "assetHint": "otto1500/otto1500.fbx.azmodel"
+                                "assetHint": "otto1500/models/otto1500.fbx.azmodel"
                             }
                         }
                     }
@@ -1533,6 +1627,19 @@
                                 },
                                 {
                                     "Key": {
+                                        "materialSlotStableId": 414028306
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3566442E-666D-58B8-9F09-17EBE012CE4E}"
+                                            },
+                                            "assetHint": "otto1500/materials/otto1500_otto_1500_lights_front.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
                                         "materialSlotStableId": 706639397
                                     },
                                     "Value": {
@@ -1541,6 +1648,19 @@
                                                 "guid": "{3566442E-666D-58B8-9F09-17EBE012CE4E}"
                                             },
                                             "assetHint": "otto1500/materials/otto1500_otto_1500_lights_front.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 904318904
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A2DD811B-0126-5424-A422-BF24205667EF}"
+                                            },
+                                            "assetHint": "otto1500/materials/otto1500_otto_1500_lights_side.azmaterial"
                                         }
                                     }
                                 },
@@ -1569,6 +1689,32 @@
                                             "assetHint": "otto1500/materials/otto1500_otto_1500_lights_side.azmaterial"
                                         }
                                     }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3098057211
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EF794FAD-EAAE-5529-924D-B8961858F1F3}"
+                                            },
+                                            "assetHint": "otto1500/materials/otto1500_otto_1500_lights_back.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3900594747
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{15605589-1183-56B8-AAA7-11DEBC896C3F}"
+                                            },
+                                            "assetHint": "otto1500/materials/otto1500_otto_1500.azmaterial"
+                                        }
+                                    }
                                 }
                             ]
                         }
@@ -1589,14 +1735,7 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 16587258293270061547,
-                    "Parent Entity": "Entity_[2519474926107]",
-                    "Transform Data": {
-                        "Rotate": [
-                            0.0,
-                            0.0,
-                            -90.0
-                        ]
-                    }
+                    "Parent Entity": "Entity_[2519474926107]"
                 }
             }
         },
@@ -1718,10 +1857,10 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 12589057346966670610,
                     "ROS2FrameConfiguration": {
                         "Frame Name": "wheel_CR",
-                        "Joint Name": "wheel_CR_joint",
-                        "Effective namespace": "base_link"
+                        "Joint Name": "wheel_CR_joint"
                     }
                 },
                 "TransformComponent": {
@@ -1978,12 +2117,27 @@
                 },
                 "ROS2FrameEditorComponent": {
                     "$type": "ROS2FrameEditorComponent",
+                    "Id": 1407404889281694566,
                     "ROS2FrameConfiguration": {
                         "Namespace Configuration": {
                             "Namespace": "base_link"
                         },
-                        "Frame Name": "base_link",
-                        "Effective namespace": "base_link"
+                        "Frame Name": "base_link"
+                    }
+                },
+                "ROS2OdometrySensorComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 5362437566902083660,
+                    "m_template": {
+                        "$type": "ROS2OdometrySensorComponent",
+                        "SensorConfiguration": {
+                            "Publishers": {
+                                "nav_msgs::msg::Odometry": {
+                                    "Type": "nav_msgs::msg::Odometry",
+                                    "Topic": "odom"
+                                }
+                            }
+                        }
                     }
                 },
                 "ROS2RobotControlComponent": {
@@ -2050,99 +2204,6 @@
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 15848641852368889391,
                     "Parent Entity": "ContainerEntity"
-                }
-            }
-        },
-        "Entity_[2528064860699]": {
-            "Id": "Entity_[2528064860699]",
-            "Name": "basic_platform_visual",
-            "Components": {
-                "AZ::Render::EditorMeshComponent": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 3259034752661926442,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{22136731-DF1C-500E-BC00-D7F2B3D84BD3}",
-                                    "subId": 278063017
-                                },
-                                "assetHint": "otto1500/otto1500basicplatformmeshes/platform_a.stl.azmodel"
-                            }
-                        }
-                    }
-                },
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 14556346737118618979
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 7736610592776393321
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 15053338997561023912
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 2012677111403991911
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 4203834161933005483
-                },
-                "EditorMaterialComponent": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 8228673162048415399,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": [
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 2084814471
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{04E9D43B-E513-5FF6-A57B-BDB421578BA9}"
-                                            },
-                                            "assetHint": "otto1500/platform/otto1500_platform_a/otto1500_platform_a_otto1500_platform_a.azmaterial"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 5005434318419763258
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 4584594338792920262
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 9581402835971478273
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 11427576186611773679,
-                    "Parent Entity": "Entity_[2472230285851]",
-                    "Transform Data": {
-                        "Translate": [
-                            0.0,
-                            0.0,
-                            0.37599998712539673
-                        ],
-                        "Rotate": [
-                            0.0,
-                            0.0,
-                            89.99999237060547
-                        ]
-                    }
                 }
             }
         },
@@ -2460,14 +2521,14 @@
                     "Parent Entity": "Entity_[2506590024219]",
                     "Transform Data": {
                         "Translate": [
-                            0.5959763526916504,
                             -0.8714046478271484,
-                            0.30724820494651794
+                            -0.5959761142730713,
+                            0.30724817514419556
                         ],
                         "Rotate": [
                             0.0,
                             0.0,
-                            89.99869537353516
+                            -0.001307981088757515
                         ]
                     }
                 }
@@ -2523,14 +2584,14 @@
                     "Parent Entity": "Entity_[2506590024219]",
                     "Transform Data": {
                         "Translate": [
-                            -0.6004743576049805,
-                            -0.8631248474121094,
-                            0.3072481155395508
+                            -0.8631246089935303,
+                            0.6004741191864014,
+                            0.3072480857372284
                         ],
                         "Rotate": [
                             0.0,
                             0.0,
-                            0.00005122640868648887
+                            -89.99994659423828
                         ]
                     }
                 }
@@ -2848,14 +2909,14 @@
                     "Parent Entity": "Entity_[2506590024219]",
                     "Transform Data": {
                         "Translate": [
-                            0.6045560836791992,
                             0.8617401123046875,
-                            0.30724820494651794
+                            -0.6045560836791992,
+                            0.30724817514419556
                         ],
                         "Rotate": [
                             0.0,
                             0.0,
-                            179.99989318847656
+                            89.9998779296875
                         ]
                     }
                 }
@@ -4357,14 +4418,14 @@
                     "Parent Entity": "Entity_[2506590024219]",
                     "Transform Data": {
                         "Translate": [
-                            -0.5961513519287109,
                             0.8684597015380859,
-                            0.30724820494651794
+                            0.5961511135101318,
+                            0.30724817514419556
                         ],
                         "Rotate": [
                             0.0,
                             0.0,
-                            -89.99880981445313
+                            -179.99880981445313
                         ]
                     }
                 }
