@@ -2949,7 +2949,7 @@
                         "Angular damping": 0.20000000298023224,
                         "Sleep threshold": 0.05000000074505806,
                         "Compute Mass": false,
-                        "Mass": 10.0,
+                        "Mass": 220.0,
                         "Centre of mass offset": [
                             0.0,
                             0.0,

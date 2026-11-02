@@ -497,7 +497,18 @@
                         "Compute Mass": false,
                         "Mass": 5.0,
                         "Compute COM": false,
-                        "Compute inertia": false
+                        "Compute inertia": false,
+                        "Inertia tensor": [
+                            0.0116976,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.02025,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0116976
+                        ]
                     },
                     "PhysXSpecificConfiguration": {
                         "SolverPositionIterations": 40,
@@ -631,7 +642,18 @@
                         "Compute Mass": false,
                         "Mass": 5.0,
                         "Compute COM": false,
-                        "Compute inertia": false
+                        "Compute inertia": false,
+                        "Inertia tensor": [
+                            0.0116976,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.02025,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0116976
+                        ]
                     },
                     "PhysXSpecificConfiguration": {
                         "SolverPositionIterations": 40,
@@ -935,7 +957,18 @@
                         "Compute Mass": false,
                         "Mass": 14.999999046325684,
                         "Compute COM": false,
-                        "Compute inertia": false
+                        "Compute inertia": false,
+                        "Inertia tensor": [
+                            1.15949,
+                            0.0,
+                            0.0,
+                            0.0,
+                            2.92641,
+                            0.0,
+                            0.0,
+                            0.0,
+                            4.08534
+                        ]
                     },
                     "PhysXSpecificConfiguration": {
                         "SolverPositionIterations": 40,
@@ -1066,7 +1099,18 @@
                         "Compute Mass": false,
                         "Mass": 5.0,
                         "Compute COM": false,
-                        "Compute inertia": false
+                        "Compute inertia": false,
+                        "Inertia tensor": [
+                            0.0311779,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0540225,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0311779
+                        ]
                     },
                     "PhysXSpecificConfiguration": {
                         "SolverPositionIterations": 40,
@@ -1301,7 +1345,18 @@
                         "Compute Mass": false,
                         "Mass": 5.0,
                         "Compute COM": false,
-                        "Compute inertia": false
+                        "Compute inertia": false,
+                        "Inertia tensor": [
+                            0.0116976,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.02025,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0116976
+                        ]
                     },
                     "PhysXSpecificConfiguration": {
                         "SolverPositionIterations": 40,
@@ -1435,7 +1490,18 @@
                         "Compute Mass": false,
                         "Mass": 5.0,
                         "Compute COM": false,
-                        "Compute inertia": false
+                        "Compute inertia": false,
+                        "Inertia tensor": [
+                            0.0116976,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.02025,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0116976
+                        ]
                     },
                     "PhysXSpecificConfiguration": {
                         "SolverPositionIterations": 40,
@@ -1844,7 +1910,18 @@
                         "Compute Mass": false,
                         "Mass": 5.0,
                         "Compute COM": false,
-                        "Compute inertia": false
+                        "Compute inertia": false,
+                        "Inertia tensor": [
+                            0.0311779,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0540225,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0311779
+                        ]
                     },
                     "PhysXSpecificConfiguration": {
                         "SolverPositionIterations": 40,
@@ -2037,19 +2114,19 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 327.0,
+                        "Mass": 597.0,
                         "Compute COM": false,
                         "Compute inertia": false,
                         "Inertia tensor": [
-                            49.84000015258789,
+                            88.0222,
                             0.0,
                             0.0,
                             0.0,
-                            136.60000610351563,
+                            174.014,
                             0.0,
                             0.0,
                             0.0,
-                            95.75
+                            249.778
                         ]
                     },
                     "PhysXSpecificConfiguration": {
